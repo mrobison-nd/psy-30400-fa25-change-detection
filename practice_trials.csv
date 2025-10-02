@@ -1,0 +1,13 @@
+loc1,loc2,loc3,loc4,loc5,loc6,loc7,loc8,color1,color2,color3,color4,color5,color6,color7,color8,color9,trial_type,set_size,correct,testcolor
+"[.3, -.3]","[.15, -.15]","[-.3, .3]","[.15, 0]","[.3, .3]","[-.3, .15]","[-.3, 0]","[.15, -.3]",violet,orange,grey,grey,grey,grey,grey,grey,green,no-change,2,f,violet
+"[-.15, -.15]","[-.3, 0]","[.15, 0]","[.15, -.15]","[.3, -.3]","[.15, .3]","[-.3, -.3]","[-.3, -.15]",yellow,green,grey,grey,grey,grey,grey,grey,red,no-change,2,f,yellow
+"[-.15, .3]","[.3, 0]","[-.3, .15]","[.3, .3]","[.3, -.3]","[-.15, 0]","[.15, .15]","[-.3, -.3]",blue,cyan,yellow,green,grey,grey,grey,grey,orange,change,4,j,orange
+"[-.15, .3]","[-.15, .15]","[.15, -.3]","[.15, 0]","[.3, -.3]","[-.15, 0]","[-.3, .15]","[-.3, -.3]",cyan,violet,grey,grey,grey,grey,grey,grey,red,change,2,j,red
+"[-.15, -.15]","[.15, -.3]","[-.3, -.3]","[.3, .3]","[.15, 0]","[-.3, .15]","[-.15, -.3]","[.15, .3]",cyan,red,white,yellow,blue,green,violet,black,orange,no-change,8,f,cyan
+"[.15, 0]","[.15, -.3]","[-.15, -.15]","[-.3, .15]","[-.15, .15]","[.3, .3]","[-.3, -.3]","[-.15, 0]",cyan,orange,grey,grey,grey,grey,grey,grey,black,change,2,j,black
+"[-.15, -.3]","[-.15, -.15]","[-.3, -.15]","[-.15, .3]","[-.3, .3]","[-.3, -.3]","[-.15, 0]","[.15, 0]",cyan,white,red,orange,yellow,violet,green,blue,black,change,8,j,black
+"[.3, -.15]","[-.3, .15]","[.15, .3]","[.15, -.3]","[-.3, -.15]","[-.3, 0]","[-.3, -.3]","[-.15, 0]",orange,red,blue,black,grey,grey,grey,grey,green,no-change,4,f,orange
+"[-.3, -.15]","[.3, .3]","[.15, -.3]","[.15, -.15]","[-.15, .3]","[.15, .15]","[-.3, -.3]","[.3, -.15]",yellow,blue,orange,black,green,white,grey,grey,cyan,change,6,j,cyan
+"[.3, 0]","[-.15, -.3]","[-.3, 0]","[.3, .15]","[-.15, .15]","[.15, 0]","[-.3, .3]","[.3, .3]",red,yellow,cyan,orange,grey,grey,grey,grey,black,no-change,4,f,red
+"[.15, .3]","[-.3, -.15]","[-.15, 0]","[.15, .15]","[-.15, -.3]","[.3, 0]","[-.15, .3]","[-.15, .15]",yellow,white,red,violet,orange,cyan,grey,grey,green,no-change,6,f,yellow
+"[.15, .15]","[.3, .15]","[-.15, -.3]","[.3, -.15]","[-.3, -.15]","[.15, .3]","[-.15, .15]","[-.3, .3]",violet,orange,blue,black,red,white,yellow,cyan,green,change,8,j,green
