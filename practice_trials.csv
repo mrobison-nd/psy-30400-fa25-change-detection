@@ -1,2 +1,2 @@
-"","loc1","loc2","loc3","loc4","loc5","loc6","loc7","loc8","color1","color2","color3","color4","color5","color6","color7","color8","color9","trial_type","set_size","correct","testcolor"
-"1","[-.15, -.15]","[.15, -.15]","[-.15, .15]","[-.3, -.3]","[.3, .15]","[.3, -.3]","[.15, .15]","[.3, .3]","yellow","orange","grey","grey","grey","grey","grey","grey","white","no-change","2","f","yellow"
+loc1,loc2,loc3,loc4,loc5,loc6,loc7,loc8,color1,color2,color3,color4,color5,color6,color7,color8,color9,trial_type,set_size,correct,testcolor
+"[.15, 0]","[-.3, .3]","[.15, -.15]","[.15, .15]","[.3, 0]","[-.15, -.15]","[-.15, 0]","[.3, -.15]",cyan,blue,grey,grey,grey,grey,grey,grey,yellow,change,2,j,yellow
