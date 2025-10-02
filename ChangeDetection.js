@@ -2076,40 +2076,9 @@ function end_expRoutineBegin(snapshot) {
     end_expClock.reset(); // clock
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
+    routineTimer.add(5.000000);
     end_expMaxDurationReached = false;
     // update component parameters for each repeat
-    // Disable downloading results to browser
-    psychoJS._saveResults = 0; 
-    
-    // Generate filename for results
-    let filename = psychoJS._experiment._experimentName + '_' + psychoJS._experiment._datetime + '.csv';
-    
-    // Extract data object from experiment
-    let dataObj = psychoJS._experiment._trialsData;
-    
-    // Convert data object to CSV
-    let data = [Object.keys(dataObj[0])].concat(dataObj).map(it => {
-        return Object.values(it).toString()
-    }).join('\n')
-    
-    // Send data to OSF via DataPipe
-    console.log('Saving data...');
-    fetch('https://pipe.jspsych.org/api/data', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-            Accept: '*/*',
-        },
-        body: JSON.stringify({
-            experimentID: 'W1HIqKoOUEoW', // ⭑ UPDATE WITH YOUR DATAPIPE EXPERIMENT ID ⭑
-            filename: filename,
-            data: data,
-        }),
-    }).then(response => response.json()).then(data => {
-        // Log response and force experiment end
-        console.log(data);
-        quitPsychoJS();
-    })
     psychoJS.experiment.addData('end_exp.started', globalClock.getTime());
     end_expMaxDuration = null
     // keep track of which components have finished
@@ -2141,6 +2110,11 @@ function end_expRoutineEachFrame() {
       end_text.setAutoDraw(true);
     }
     
+    frameRemains = 0.0 + 5 - psychoJS.window.monitorFramePeriod * 0.75;// most of one frame period left
+    if (end_text.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+      end_text.setAutoDraw(false);
+    }
+    
     // check for quit (typically the Esc key)
     if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
       return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
@@ -2159,7 +2133,7 @@ function end_expRoutineEachFrame() {
       }
     
     // refresh the screen if continuing
-    if (continueRoutine) {
+    if (continueRoutine && routineTimer.getTime() > 0) {
       return Scheduler.Event.FLIP_REPEAT;
     } else {
       return Scheduler.Event.NEXT;
@@ -2177,9 +2151,29 @@ function end_expRoutineEnd(snapshot) {
       }
     }
     psychoJS.experiment.addData('end_exp.stopped', globalClock.getTime());
-    // the Routine "end_exp" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset();
+    // Disable saving results to Pavlovia
+    psychoJS._saveResults = 0;
     
+    // Generate filename for results
+    let filename = psychoJS.experiment._experimentName + '_' + util.toString(psychoJS.experiment.experimentInfo.participant) + '.csv';
+    
+    // Extract and convert data to CSV
+    let dataObj = psychoJS.experiment._trialsData;
+    let data = [Object.keys(dataObj[0])].concat(dataObj).map(it => { return Object.values(it).toString() }).join('\n');
+    
+    // Trigger download
+    let link = document.createElement('a');
+    link.setAttribute('href', 'data:text/csv;charset=utf-8,' + encodeURI(data));
+    link.setAttribute('download', filename);
+    link.style.display = 'none';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    if (end_expMaxDurationReached) {
+        routineTimer.add(end_expMaxDuration);
+    } else {
+        routineTimer.add(-5.000000);
+    }
     // Routines running outside a loop should always advance the datafile row
     if (currentLoop === psychoJS.experiment) {
       psychoJS.experiment.nextEntry(snapshot);
