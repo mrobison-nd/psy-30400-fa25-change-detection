@@ -571,6 +571,9 @@ async function experimentInit() {
     depth: 0.0 
   });
   
+  // Run 'Begin Experiment' code from code_6
+  expInfo["participant"];
+  
   // Create some handy timers
   globalClock = new util.Clock();  // to track the time since experiment started
   routineTimer = new util.CountdownTimer();  // to track time remaining of each (non-slip) routine
@@ -2155,7 +2158,7 @@ function end_expRoutineEnd(snapshot) {
     psychoJS._saveResults = 0;
     
     // Generate filename for results
-    let filename = psychoJS.experiment._experimentName + '_' + util.toString(psychoJS.experiment.experimentInfo.participant) + '.csv';
+    let filename = psychoJS.experiment._experimentName + '_' + util.toString(expInfo["participant"]) + '.csv';
     
     // Extract and convert data to CSV
     let dataObj = psychoJS.experiment._trialsData;
