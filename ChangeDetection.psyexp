@@ -1,0 +1,1227 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2024.2.2">
+  <Settings>
+    <Param val="use prefs" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="use prefs" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="Thank you for your patience." valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant': 'f&quot;{randint(0, 999999):06.0f}&quot;', 'name': ''}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="2024.2.2" valType="str" updates="None" name="Use version"/>
+    <Param val="[1920, 1080]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
+    <Param val="default" valType="str" updates="None" name="ecSampleRate"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="ChangeDetection" valType="str" updates="None" name="expName"/>
+    <Param val="on Save" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="exp" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
+    <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
+    <Param val="True" valType="bool" updates="None" name="plCompanionRecordingEnabled"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="0" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="encoding">
+      <RoutineSettingsComponent name="encoding" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="encoding" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <PolygonComponent name="item1" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$color1" valType="color" updates="set every repeat" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$color1" valType="color" updates="set every repeat" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="item1" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="$loc1" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.05, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="item2" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$color2" valType="color" updates="set every repeat" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$color2" valType="color" updates="set every repeat" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="item2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="$loc2" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.05, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="item3" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$color3" valType="color" updates="set every repeat" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$color3" valType="color" updates="set every repeat" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="item3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="$loc3" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.05, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="item4" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$color4" valType="color" updates="set every repeat" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$color4" valType="color" updates="set every repeat" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="item4" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="$loc4" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.05, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="item5" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$color5" valType="color" updates="set every repeat" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$color5" valType="color" updates="set every repeat" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="item5" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="$loc5" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.05, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="item6" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$color6" valType="color" updates="set every repeat" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$color6" valType="color" updates="set every repeat" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="item6" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="$loc6" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.05, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="item7" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$color7" valType="color" updates="set every repeat" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$color7" valType="color" updates="set every repeat" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="item7" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="$loc7" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.05, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="item8" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$color8" valType="color" updates="set every repeat" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$color8" valType="color" updates="set every repeat" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="item8" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="$loc8" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.05, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <CodeComponent name="code_5" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="if t &gt; 0.25:&amp;#10;    continueRoutine = False" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="if ((t &gt; 0.25)) {&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_5" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="test">
+      <RoutineSettingsComponent name="test" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="test" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <PolygonComponent name="test_indicator" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="grey" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="black" valType="color" updates="constant" name="lineColor"/>
+        <Param val="5" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="test_indicator" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="$loc1" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.1, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="item1_2" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$testcolor" valType="color" updates="set every repeat" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$testcolor" valType="color" updates="set every repeat" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="item1_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="$loc1" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.05, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="item2_2" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$color2" valType="color" updates="set every repeat" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$color2" valType="color" updates="set every repeat" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="item2_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="$loc2" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.05, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="item3_2" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$color3" valType="color" updates="set every repeat" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$color3" valType="color" updates="set every repeat" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="item3_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="$loc3" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.05, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="item4_2" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$color4" valType="color" updates="set every repeat" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$color4" valType="color" updates="set every repeat" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="item4_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="$loc4" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.05, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="item5_2" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$color5" valType="color" updates="set every repeat" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$color5" valType="color" updates="set every repeat" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="item5_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="$loc5" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.05, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="item6_2" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$color6" valType="color" updates="set every repeat" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$color6" valType="color" updates="set every repeat" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="item6_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="$loc6" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.05, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="item7_2" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$color7" valType="color" updates="set every repeat" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$color7" valType="color" updates="set every repeat" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="item7_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="$loc7" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.05, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <PolygonComponent name="item8_2" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$color8" valType="color" updates="set every repeat" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$color8" valType="color" updates="set every repeat" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="item8_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="$loc8" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="rectangle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.05, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <KeyboardComponent name="key_resp_3" plugin="None">
+        <Param val="'f', 'j'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="$correct" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_3" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="True" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="welcome">
+      <RoutineSettingsComponent name="welcome" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="welcome" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="welcome_text" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="welcome_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Welcome!&amp;#10;&amp;#10;This task is a version of the Luck &amp; Vogel (1997) &quot;change-detection&quot; task.&amp;#10;&amp;#10;Press the spacebar to proceed." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="instruction1">
+      <RoutineSettingsComponent name="instruction1" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="instruction1" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="instruct1_text" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.02" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="instruct1_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, .2)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="On each trial, you will see a pattern of colored squares. There will be anywhere from 2 to 8 squares in the display.&amp;#10;&amp;#10;The display will appear only briefly, followed by a short delay. Then, the display will reappear, and one of the squares will be outlined by a black circle.&amp;#10;&amp;#10;Your task is to indicate whether this square is the same color or a different color than its initial presentation. Press the 'F' key for same, and the 'J' key for different.&amp;#10;&amp;#10;Below are example trials. Press the right arrow key to continue." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2" plugin="None">
+        <Param val="'right'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_2" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <ImageComponent name="image" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="examples.png" valType="file" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="image" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -.2)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.6, 0.35)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="end_exp">
+      <RoutineSettingsComponent name="end_exp" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="end_exp" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="end_text" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="end_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="That is the end of the experiment.&amp;#10;&amp;#10;Please wait while we save your data..." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="code_3" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_3" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="feedback">
+      <RoutineSettingsComponent name="feedback" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="feedback" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="code_2" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="if ((key_resp_3.corr === 1)) {&amp;#10;    feedback_text = &quot;correct&quot;;&amp;#10;    feedback_color = &quot;cyan&quot;;&amp;#10;}&amp;#10;if ((key_resp_3.corr === 0)) {&amp;#10;    feedback_text = &quot;incorrect&quot;;&amp;#10;    feedback_color = &quot;darkred&quot;;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if key_resp_3.corr == 1:&amp;#10;    feedback_text = 'correct'&amp;#10;    feedback_color = 'cyan'&amp;#10;if key_resp_3.corr == 0:&amp;#10;    feedback_text = 'incorrect'&amp;#10;    feedback_color = 'darkred'" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_2" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="fb_text" plugin="None">
+        <Param val="$feedback_color" valType="color" updates="set every repeat" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="fb_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$feedback_text" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="end_practice">
+      <RoutineSettingsComponent name="end_practice" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="end_practice" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="instruct1_text_2" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="instruct1_text_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="That is the end of the practice trials.&amp;#10;&amp;#10;We will now start the real trials.&amp;#10;&amp;#10;Press the right arrow key to begin." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_4" plugin="None">
+        <Param val="'right'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_4" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="start_practice">
+      <RoutineSettingsComponent name="start_practice" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="start_practice" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="welcome_text_2" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="welcome_text_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="We will start with some practice trials.&amp;#10;&amp;#10;Remember: press F for same, and J for different.&amp;#10;&amp;#10;Press the spacebar to proceed." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_5" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_5" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="delay_interval">
+      <RoutineSettingsComponent name="delay_interval" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="delay_interval" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="timer = core.Clock()" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="timer = new util.Clock();&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="startTime = timer.getTime();&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="startTime = timer.getTime()" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="currTime = timer.getTime()&amp;#10;if currTime - startTime &lt; 1:&amp;#10;    continueRoutine = true&amp;#10;if currTime - startTime &gt;= 1:&amp;#10;    continueRoutine = false" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="currTime = timer.getTime();&amp;#10;if (((currTime - startTime) &lt; 1)) {&amp;#10;    continueRoutine = true;&amp;#10;}&amp;#10;if (((currTime - startTime) &gt;= 1)) {&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="fix">
+      <RoutineSettingsComponent name="fix" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="fix" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_2" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="+" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="code_4" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="if t &gt; 1:&amp;#10;    continueRoutine = False" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="if ((t &gt; 1)) {&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_4" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="welcome"/>
+    <Routine name="instruction1"/>
+    <Routine name="start_practice"/>
+    <LoopInitiator loopType="TrialHandler" name="practice_trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('loc1', '(-.4, -.4)'), ('loc2', '(.2, 0)'), ('loc3', '(.2, -.2)'), ('loc4', '(-.2, 0)'), ('loc5', '(-.4, .2)'), ('loc6', '(-.4, 0)'), ('loc7', '(-.2, -.2)'), ('loc8', '(.4, .4)'), ('color1', 'white'), ('color2', 'yellow'), ('color3', 'violet'), ('color4', 'black'), ('color5', 'red'), ('color6', 'orange'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'green'), ('trial_type', 'no-change'), ('set_size', 6), ('correct', 'j')]), OrderedDict([('loc1', '(.2, 0)'), ('loc2', '(.4, 0)'), ('loc3', '(-.2, -.2)'), ('loc4', '(-.4, 0)'), ('loc5', '(.4, -.4)'), ('loc6', '(-.2, 0)'), ('loc7', '(.4, .2)'), ('loc8', '(.4, .4)'), ('color1', 'white'), ('color2', 'green'), ('color3', 'cyan'), ('color4', 'red'), ('color5', 'yellow'), ('color6', 'orange'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'blue'), ('trial_type', 'change'), ('set_size', 6), ('correct', 'f')]), OrderedDict([('loc1', '(-.2, -.4)'), ('loc2', '(-.2, 0)'), ('loc3', '(.4, -.4)'), ('loc4', '(.2, -.4)'), ('loc5', '(.2, .2)'), ('loc6', '(.4, .2)'), ('loc7', '(-.2, -.2)'), ('loc8', '(-.2, .2)'), ('color1', 'orange'), ('color2', 'yellow'), ('color3', 'grey'), ('color4', 'grey'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'cyan'), ('trial_type', 'no-change'), ('set_size', 2), ('correct', 'j')]), OrderedDict([('loc1', '(.4, 0)'), ('loc2', '(.2, .2)'), ('loc3', '(-.2, .2)'), ('loc4', '(-.4, .4)'), ('loc5', '(.2, .4)'), ('loc6', '(-.4, -.4)'), ('loc7', '(.4, .2)'), ('loc8', '(.2, 0)'), ('color1', 'yellow'), ('color2', 'green'), ('color3', 'cyan'), ('color4', 'black'), ('color5', 'orange'), ('color6', 'blue'), ('color7', 'white'), ('color8', 'red'), ('color9', 'red'), ('trial_type', 'no-change'), ('set_size', 8), ('correct', 'j')]), OrderedDict([('loc1', '(.4, -.4)'), ('loc2', '(.4, -.2)'), ('loc3', '(.2, .2)'), ('loc4', '(-.4, 0)'), ('loc5', '(.4, .4)'), ('loc6', '(.4, 0)'), ('loc7', '(.4, .2)'), ('loc8', '(-.4, -.4)'), ('color1', 'orange'), ('color2', 'cyan'), ('color3', 'green'), ('color4', 'white'), ('color5', 'violet'), ('color6', 'black'), ('color7', 'red'), ('color8', 'blue'), ('color9', 'yellow'), ('trial_type', 'no-change'), ('set_size', 8), ('correct', 'j')]), OrderedDict([('loc1', '(.2, .4)'), ('loc2', '(.4, -.2)'), ('loc3', '(-.4, -.2)'), ('loc4', '(.2, -.2)'), ('loc5', '(-.4, .4)'), ('loc6', '(-.2, -.2)'), ('loc7', '(.2, .2)'), ('loc8', '(.2, 0)'), ('color1', 'orange'), ('color2', 'red'), ('color3', 'black'), ('color4', 'green'), ('color5', 'blue'), ('color6', 'white'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'red'), ('trial_type', 'change'), ('set_size', 6), ('correct', 'f')]), OrderedDict([('loc1', '(.2, -.4)'), ('loc2', '(-.4, 0)'), ('loc3', '(-.4, -.4)'), ('loc4', '(.4, -.4)'), ('loc5', '(.2, .2)'), ('loc6', '(-.4, .2)'), ('loc7', '(-.2, -.2)'), ('loc8', '(.4, .2)'), ('color1', 'blue'), ('color2', 'black'), ('color3', 'red'), ('color4', 'red'), ('color5', 'violet'), ('color6', 'green'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'cyan'), ('trial_type', 'change'), ('set_size', 6), ('correct', 'f')]), OrderedDict([('loc1', '(.2, -.2)'), ('loc2', '(-.4, .4)'), ('loc3', '(.2, .2)'), ('loc4', '(.4, -.2)'), ('loc5', '(.4, -.4)'), ('loc6', '(-.2, -.4)'), ('loc7', '(.2, .4)'), ('loc8', '(-.2, 0)'), ('color1', 'violet'), ('color2', 'red'), ('color3', 'red'), ('color4', 'cyan'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'yellow'), ('trial_type', 'no-change'), ('set_size', 4), ('correct', 'j')]), OrderedDict([('loc1', '(-.2, .4)'), ('loc2', '(.4, -.4)'), ('loc3', '(.4, .2)'), ('loc4', '(.2, 0)'), ('loc5', '(-.4, .4)'), ('loc6', '(.2, .2)'), ('loc7', '(.2, -.2)'), ('loc8', '(-.4, .2)'), ('color1', 'red'), ('color2', 'red'), ('color3', 'white'), ('color4', 'blue'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'green'), ('trial_type', 'change'), ('set_size', 4), ('correct', 'f')]), OrderedDict([('loc1', '(-.4, -.2)'), ('loc2', '(-.4, .4)'), ('loc3', '(.2, 0)'), ('loc4', '(-.4, -.4)'), ('loc5', '(.4, .2)'), ('loc6', '(-.2, .2)'), ('loc7', '(-.4, .2)'), ('loc8', '(.2, -.2)'), ('color1', 'red'), ('color2', 'cyan'), ('color3', 'grey'), ('color4', 'grey'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'green'), ('trial_type', 'change'), ('set_size', 2), ('correct', 'f')]), OrderedDict([('loc1', '(.2, -.2)'), ('loc2', '(-.4, .2)'), ('loc3', '(.4, -.4)'), ('loc4', '(-.4, .4)'), ('loc5', '(-.2, .4)'), ('loc6', '(.2, -.4)'), ('loc7', '(.2, 0)'), ('loc8', '(-.2, -.4)'), ('color1', 'green'), ('color2', 'orange'), ('color3', 'blue'), ('color4', 'black'), ('color5', 'cyan'), ('color6', 'white'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'violet'), ('trial_type', 'no-change'), ('set_size', 6), ('correct', 'j')]), OrderedDict([('loc1', '(-.2, -.2)'), ('loc2', '(-.4, -.2)'), ('loc3', '(-.2, .2)'), ('loc4', '(-.4, 0)'), ('loc5', '(.4, .4)'), ('loc6', '(.2, .2)'), ('loc7', '(.4, -.2)'), ('loc8', '(.2, .4)'), ('color1', 'black'), ('color2', 'red'), ('color3', 'grey'), ('color4', 'grey'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'blue'), ('trial_type', 'change'), ('set_size', 2), ('correct', 'f')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="practice_trials.csv" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="practice_trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="fix"/>
+    <Routine name="encoding"/>
+    <Routine name="delay_interval"/>
+    <Routine name="test"/>
+    <Routine name="feedback"/>
+    <LoopTerminator name="practice_trials"/>
+    <Routine name="end_practice"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('loc1', '(.4, -.2)'), ('loc2', '(.4, 0)'), ('loc3', '(-.2, -.2)'), ('loc4', '(.2, -.4)'), ('loc5', '(.4, .4)'), ('loc6', '(-.2, .2)'), ('loc7', '(-.4, -.4)'), ('loc8', '(.4, -.4)'), ('color1', 'green'), ('color2', 'red'), ('color3', 'black'), ('color4', 'white'), ('color5', 'red'), ('color6', 'yellow'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'violet'), ('trial_type', 'no-change'), ('set_size', 6), ('correct', 'j')]), OrderedDict([('loc1', '(.4, 0)'), ('loc2', '(.4, .2)'), ('loc3', '(.2, .4)'), ('loc4', '(.2, .2)'), ('loc5', '(.2, -.2)'), ('loc6', '(-.4, -.4)'), ('loc7', '(-.2, .4)'), ('loc8', '(.4, .4)'), ('color1', 'cyan'), ('color2', 'blue'), ('color3', 'orange'), ('color4', 'green'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'yellow'), ('trial_type', 'change'), ('set_size', 4), ('correct', 'f')]), OrderedDict([('loc1', '(-.4, .4)'), ('loc2', '(.4, .2)'), ('loc3', '(.4, 0)'), ('loc4', '(.2, -.4)'), ('loc5', '(.2, .4)'), ('loc6', '(.4, -.4)'), ('loc7', '(-.2, -.4)'), ('loc8', '(.4, .4)'), ('color1', 'violet'), ('color2', 'orange'), ('color3', 'blue'), ('color4', 'green'), ('color5', 'cyan'), ('color6', 'red'), ('color7', 'black'), ('color8', 'red'), ('color9', 'white'), ('trial_type', 'change'), ('set_size', 8), ('correct', 'f')]), OrderedDict([('loc1', '(-.2, -.2)'), ('loc2', '(.4, .2)'), ('loc3', '(-.4, .4)'), ('loc4', '(-.2, .4)'), ('loc5', '(-.2, -.4)'), ('loc6', '(.2, .2)'), ('loc7', '(.4, -.2)'), ('loc8', '(.4, 0)'), ('color1', 'red'), ('color2', 'green'), ('color3', 'grey'), ('color4', 'grey'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'red'), ('trial_type', 'no-change'), ('set_size', 2), ('correct', 'j')]), OrderedDict([('loc1', '(.4, .4)'), ('loc2', '(.4, -.2)'), ('loc3', '(-.2, 0)'), ('loc4', '(-.2, .2)'), ('loc5', '(.2, .2)'), ('loc6', '(-.4, -.4)'), ('loc7', '(-.2, .4)'), ('loc8', '(-.4, .4)'), ('color1', 'blue'), ('color2', 'white'), ('color3', 'orange'), ('color4', 'black'), ('color5', 'yellow'), ('color6', 'cyan'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'red'), ('trial_type', 'no-change'), ('set_size', 6), ('correct', 'j')]), OrderedDict([('loc1', '(.2, -.2)'), ('loc2', '(-.2, 0)'), ('loc3', '(-.4, .4)'), ('loc4', '(.4, .2)'), ('loc5', '(-.2, -.4)'), ('loc6', '(-.4, -.2)'), ('loc7', '(-.4, .2)'), ('loc8', '(-.2, -.2)'), ('color1', 'blue'), ('color2', 'cyan'), ('color3', 'grey'), ('color4', 'grey'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'green'), ('trial_type', 'no-change'), ('set_size', 2), ('correct', 'j')]), OrderedDict([('loc1', '(.4, .2)'), ('loc2', '(-.2, .2)'), ('loc3', '(-.2, 0)'), ('loc4', '(-.4, 0)'), ('loc5', '(.2, -.4)'), ('loc6', '(-.4, -.2)'), ('loc7', '(.2, .4)'), ('loc8', '(.4, -.4)'), ('color1', 'yellow'), ('color2', 'red'), ('color3', 'violet'), ('color4', 'white'), ('color5', 'green'), ('color6', 'orange'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'black'), ('trial_type', 'change'), ('set_size', 6), ('correct', 'f')]), OrderedDict([('loc1', '(.4, -.2)'), ('loc2', '(-.4, -.2)'), ('loc3', '(-.2, -.2)'), ('loc4', '(.4, 0)'), ('loc5', '(-.4, -.4)'), ('loc6', '(-.4, .2)'), ('loc7', '(-.2, -.4)'), ('loc8', '(.2, -.4)'), ('color1', 'white'), ('color2', 'blue'), ('color3', 'yellow'), ('color4', 'violet'), ('color5', 'green'), ('color6', 'cyan'), ('color7', 'red'), ('color8', 'red'), ('color9', 'black'), ('trial_type', 'no-change'), ('set_size', 8), ('correct', 'j')]), OrderedDict([('loc1', '(.2, -.2)'), ('loc2', '(-.2, .4)'), ('loc3', '(.4, -.2)'), ('loc4', '(.2, .4)'), ('loc5', '(.4, 0)'), ('loc6', '(-.2, .2)'), ('loc7', '(.2, 0)'), ('loc8', '(-.4, .2)'), ('color1', 'blue'), ('color2', 'yellow'), ('color3', 'violet'), ('color4', 'red'), ('color5', 'orange'), ('color6', 'green'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'white'), ('trial_type', 'change'), ('set_size', 6), ('correct', 'f')]), OrderedDict([('loc1', '(-.2, -.2)'), ('loc2', '(-.4, .4)'), ('loc3', '(.4, -.4)'), ('loc4', '(.2, 0)'), ('loc5', '(-.4, -.4)'), ('loc6', '(.2, .4)'), ('loc7', '(-.4, .2)'), ('loc8', '(-.4, -.2)'), ('color1', 'black'), ('color2', 'cyan'), ('color3', 'yellow'), ('color4', 'blue'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'red'), ('trial_type', 'change'), ('set_size', 4), ('correct', 'f')]), OrderedDict([('loc1', '(-.4, -.4)'), ('loc2', '(-.4, .4)'), ('loc3', '(-.2, 0)'), ('loc4', '(-.4, -.2)'), ('loc5', '(.2, -.4)'), ('loc6', '(.2, .2)'), ('loc7', '(-.2, .2)'), ('loc8', '(.2, -.2)'), ('color1', 'orange'), ('color2', 'cyan'), ('color3', 'red'), ('color4', 'violet'), ('color5', 'green'), ('color6', 'black'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'yellow'), ('trial_type', 'change'), ('set_size', 6), ('correct', 'f')]), OrderedDict([('loc1', '(.2, -.4)'), ('loc2', '(.4, -.4)'), ('loc3', '(-.4, 0)'), ('loc4', '(.4, .2)'), ('loc5', '(.4, .4)'), ('loc6', '(-.2, .4)'), ('loc7', '(.4, -.2)'), ('loc8', '(.2, .4)'), ('color1', 'blue'), ('color2', 'red'), ('color3', 'green'), ('color4', 'orange'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'yellow'), ('trial_type', 'change'), ('set_size', 4), ('correct', 'f')]), OrderedDict([('loc1', '(.2, 0)'), ('loc2', '(.4, .4)'), ('loc3', '(-.2, 0)'), ('loc4', '(-.2, .2)'), ('loc5', '(-.4, -.2)'), ('loc6', '(.4, 0)'), ('loc7', '(.4, -.2)'), ('loc8', '(.4, .2)'), ('color1', 'red'), ('color2', 'cyan'), ('color3', 'grey'), ('color4', 'grey'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'orange'), ('trial_type', 'change'), ('set_size', 2), ('correct', 'f')]), OrderedDict([('loc1', '(-.2, 0)'), ('loc2', '(.2, -.2)'), ('loc3', '(-.2, .4)'), ('loc4', '(-.4, -.2)'), ('loc5', '(.2, -.4)'), ('loc6', '(.4, 0)'), ('loc7', '(-.4, .4)'), ('loc8', '(.2, .4)'), ('color1', 'green'), ('color2', 'blue'), ('color3', 'cyan'), ('color4', 'orange'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'red'), ('trial_type', 'change'), ('set_size', 4), ('correct', 'f')]), OrderedDict([('loc1', '(-.4, -.2)'), ('loc2', '(.4, 0)'), ('loc3', '(.2, 0)'), ('loc4', '(-.2, -.4)'), ('loc5', '(-.2, -.2)'), ('loc6', '(.4, .2)'), ('loc7', '(-.4, .2)'), ('loc8', '(.2, -.4)'), ('color1', 'orange'), ('color2', 'black'), ('color3', 'blue'), ('color4', 'yellow'), ('color5', 'violet'), ('color6', 'cyan'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'green'), ('trial_type', 'change'), ('set_size', 6), ('correct', 'f')]), OrderedDict([('loc1', '(.2, .4)'), ('loc2', '(.4, 0)'), ('loc3', '(.4, -.4)'), ('loc4', '(.2, -.4)'), ('loc5', '(-.2, 0)'), ('loc6', '(-.2, .4)'), ('loc7', '(-.2, -.4)'), ('loc8', '(.2, 0)'), ('color1', 'violet'), ('color2', 'orange'), ('color3', 'red'), ('color4', 'cyan'), ('color5', 'blue'), ('color6', 'red'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'yellow'), ('trial_type', 'change'), ('set_size', 6), ('correct', 'f')]), OrderedDict([('loc1', '(.4, -.4)'), ('loc2', '(-.4, .2)'), ('loc3', '(-.2, .4)'), ('loc4', '(-.4, 0)'), ('loc5', '(.2, .2)'), ('loc6', '(-.2, -.2)'), ('loc7', '(-.4, -.4)'), ('loc8', '(-.2, .2)'), ('color1', 'cyan'), ('color2', 'yellow'), ('color3', 'blue'), ('color4', 'green'), ('color5', 'white'), ('color6', 'violet'), ('color7', 'orange'), ('color8', 'red'), ('color9', 'black'), ('trial_type', 'change'), ('set_size', 8), ('correct', 'f')]), OrderedDict([('loc1', '(-.2, .4)'), ('loc2', '(.4, -.4)'), ('loc3', '(.4, .4)'), ('loc4', '(.4, -.2)'), ('loc5', '(.2, .4)'), ('loc6', '(.4, .2)'), ('loc7', '(-.4, -.2)'), ('loc8', '(-.4, 0)'), ('color1', 'red'), ('color2', 'blue'), ('color3', 'yellow'), ('color4', 'violet'), ('color5', 'orange'), ('color6', 'cyan'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'green'), ('trial_type', 'change'), ('set_size', 6), ('correct', 'f')]), OrderedDict([('loc1', '(.4, 0)'), ('loc2', '(-.4, -.4)'), ('loc3', '(-.2, -.4)'), ('loc4', '(.4, -.4)'), ('loc5', '(-.4, .2)'), ('loc6', '(-.4, 0)'), ('loc7', '(-.4, .4)'), ('loc8', '(.2, -.2)'), ('color1', 'black'), ('color2', 'white'), ('color3', 'violet'), ('color4', 'yellow'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'red'), ('trial_type', 'no-change'), ('set_size', 4), ('correct', 'j')]), OrderedDict([('loc1', '(.4, -.2)'), ('loc2', '(-.2, 0)'), ('loc3', '(.4, 0)'), ('loc4', '(-.4, 0)'), ('loc5', '(.2, 0)'), ('loc6', '(.2, -.4)'), ('loc7', '(-.4, -.2)'), ('loc8', '(-.2, -.2)'), ('color1', 'red'), ('color2', 'white'), ('color3', 'blue'), ('color4', 'black'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'violet'), ('trial_type', 'no-change'), ('set_size', 4), ('correct', 'j')]), OrderedDict([('loc1', '(-.4, -.2)'), ('loc2', '(-.4, 0)'), ('loc3', '(-.2, -.4)'), ('loc4', '(.4, -.4)'), ('loc5', '(.2, .2)'), ('loc6', '(-.2, .2)'), ('loc7', '(-.2, 0)'), ('loc8', '(-.2, -.2)'), ('color1', 'red'), ('color2', 'orange'), ('color3', 'grey'), ('color4', 'grey'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'cyan'), ('trial_type', 'no-change'), ('set_size', 2), ('correct', 'j')]), OrderedDict([('loc1', '(-.2, -.4)'), ('loc2', '(-.4, -.2)'), ('loc3', '(-.4, .4)'), ('loc4', '(-.4, .2)'), ('loc5', '(.4, .2)'), ('loc6', '(.4, -.2)'), ('loc7', '(-.2, .4)'), ('loc8', '(.2, -.4)'), ('color1', 'black'), ('color2', 'white'), ('color3', 'cyan'), ('color4', 'red'), ('color5', 'blue'), ('color6', 'violet'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'green'), ('trial_type', 'no-change'), ('set_size', 6), ('correct', 'j')]), OrderedDict([('loc1', '(-.2, -.2)'), ('loc2', '(.2, -.2)'), ('loc3', '(-.2, 0)'), ('loc4', '(-.4, -.4)'), ('loc5', '(.2, .4)'), ('loc6', '(.2, 0)'), ('loc7', '(-.2, -.4)'), ('loc8', '(-.4, -.2)'), ('color1', 'cyan'), ('color2', 'red'), ('color3', 'violet'), ('color4', 'orange'), ('color5', 'blue'), ('color6', 'black'), ('color7', 'green'), ('color8', 'red'), ('color9', 'white'), ('trial_type', 'no-change'), ('set_size', 8), ('correct', 'j')]), OrderedDict([('loc1', '(.4, .2)'), ('loc2', '(-.2, -.4)'), ('loc3', '(-.2, -.2)'), ('loc4', '(.2, -.4)'), ('loc5', '(.4, -.4)'), ('loc6', '(.2, .2)'), ('loc7', '(-.2, 0)'), ('loc8', '(-.2, .2)'), ('color1', 'red'), ('color2', 'violet'), ('color3', 'white'), ('color4', 'cyan'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'black'), ('trial_type', 'no-change'), ('set_size', 4), ('correct', 'j')]), OrderedDict([('loc1', '(.4, .4)'), ('loc2', '(-.2, -.2)'), ('loc3', '(-.2, -.4)'), ('loc4', '(.2, -.4)'), ('loc5', '(.2, .2)'), ('loc6', '(.4, -.4)'), ('loc7', '(.2, 0)'), ('loc8', '(-.2, .2)'), ('color1', 'yellow'), ('color2', 'violet'), ('color3', 'blue'), ('color4', 'red'), ('color5', 'orange'), ('color6', 'green'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'red'), ('trial_type', 'no-change'), ('set_size', 6), ('correct', 'j')]), OrderedDict([('loc1', '(-.2, .4)'), ('loc2', '(.4, -.4)'), ('loc3', '(.2, .4)'), ('loc4', '(.2, 0)'), ('loc5', '(.2, -.2)'), ('loc6', '(.2, .2)'), ('loc7', '(.4, -.2)'), ('loc8', '(-.4, 0)'), ('color1', 'violet'), ('color2', 'green'), ('color3', 'red'), ('color4', 'red'), ('color5', 'cyan'), ('color6', 'white'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'yellow'), ('trial_type', 'change'), ('set_size', 6), ('correct', 'f')]), OrderedDict([('loc1', '(-.4, .2)'), ('loc2', '(.2, 0)'), ('loc3', '(-.4, -.2)'), ('loc4', '(-.2, -.2)'), ('loc5', '(.4, -.2)'), ('loc6', '(.4, .2)'), ('loc7', '(-.4, 0)'), ('loc8', '(-.4, -.4)'), ('color1', 'cyan'), ('color2', 'orange'), ('color3', 'yellow'), ('color4', 'black'), ('color5', 'green'), ('color6', 'red'), ('color7', 'white'), ('color8', 'blue'), ('color9', 'red'), ('trial_type', 'change'), ('set_size', 8), ('correct', 'f')]), OrderedDict([('loc1', '(.2, .2)'), ('loc2', '(-.2, .2)'), ('loc3', '(-.2, .4)'), ('loc4', '(.4, 0)'), ('loc5', '(.2, -.2)'), ('loc6', '(-.4, .2)'), ('loc7', '(-.4, -.2)'), ('loc8', '(.4, .4)'), ('color1', 'red'), ('color2', 'blue'), ('color3', 'black'), ('color4', 'green'), ('color5', 'yellow'), ('color6', 'white'), ('color7', 'red'), ('color8', 'cyan'), ('color9', 'violet'), ('trial_type', 'no-change'), ('set_size', 8), ('correct', 'j')]), OrderedDict([('loc1', '(.4, -.4)'), ('loc2', '(-.4, -.4)'), ('loc3', '(.2, -.4)'), ('loc4', '(.4, .4)'), ('loc5', '(.2, -.2)'), ('loc6', '(-.2, -.2)'), ('loc7', '(-.4, 0)'), ('loc8', '(.4, -.2)'), ('color1', 'orange'), ('color2', 'red'), ('color3', 'green'), ('color4', 'white'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'yellow'), ('trial_type', 'change'), ('set_size', 4), ('correct', 'f')]), OrderedDict([('loc1', '(.4, -.2)'), ('loc2', '(-.4, 0)'), ('loc3', '(.4, 0)'), ('loc4', '(.2, .2)'), ('loc5', '(.4, .2)'), ('loc6', '(-.2, .2)'), ('loc7', '(-.4, -.2)'), ('loc8', '(-.2, 0)'), ('color1', 'red'), ('color2', 'blue'), ('color3', 'black'), ('color4', 'violet'), ('color5', 'orange'), ('color6', 'yellow'), ('color7', 'green'), ('color8', 'cyan'), ('color9', 'white'), ('trial_type', 'no-change'), ('set_size', 8), ('correct', 'j')]), OrderedDict([('loc1', '(-.2, -.4)'), ('loc2', '(-.4, -.4)'), ('loc3', '(-.4, .4)'), ('loc4', '(-.2, .2)'), ('loc5', '(-.2, -.2)'), ('loc6', '(.2, -.4)'), ('loc7', '(.4, -.2)'), ('loc8', '(.2, 0)'), ('color1', 'violet'), ('color2', 'yellow'), ('color3', 'red'), ('color4', 'cyan'), ('color5', 'red'), ('color6', 'orange'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'black'), ('trial_type', 'no-change'), ('set_size', 6), ('correct', 'j')]), OrderedDict([('loc1', '(-.4, .2)'), ('loc2', '(.4, 0)'), ('loc3', '(-.4, 0)'), ('loc4', '(.4, .4)'), ('loc5', '(-.2, .4)'), ('loc6', '(.2, -.4)'), ('loc7', '(-.4, -.4)'), ('loc8', '(.4, -.4)'), ('color1', 'green'), ('color2', 'black'), ('color3', 'grey'), ('color4', 'grey'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'blue'), ('trial_type', 'no-change'), ('set_size', 2), ('correct', 'j')]), OrderedDict([('loc1', '(.2, -.4)'), ('loc2', '(.4, .2)'), ('loc3', '(.2, 0)'), ('loc4', '(-.2, 0)'), ('loc5', '(.4, 0)'), ('loc6', '(-.2, -.2)'), ('loc7', '(-.4, .4)'), ('loc8', '(-.4, .2)'), ('color1', 'green'), ('color2', 'white'), ('color3', 'red'), ('color4', 'yellow'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'orange'), ('trial_type', 'no-change'), ('set_size', 4), ('correct', 'j')]), OrderedDict([('loc1', '(.4, -.2)'), ('loc2', '(.4, -.4)'), ('loc3', '(-.4, 0)'), ('loc4', '(.2, -.2)'), ('loc5', '(.4, 0)'), ('loc6', '(-.4, -.2)'), ('loc7', '(-.2, 0)'), ('loc8', '(-.4, .2)'), ('color1', 'white'), ('color2', 'yellow'), ('color3', 'cyan'), ('color4', 'green'), ('color5', 'red'), ('color6', 'red'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'blue'), ('trial_type', 'no-change'), ('set_size', 6), ('correct', 'j')]), OrderedDict([('loc1', '(.4, .4)'), ('loc2', '(-.2, .2)'), ('loc3', '(-.2, -.4)'), ('loc4', '(.4, -.2)'), ('loc5', '(.2, 0)'), ('loc6', '(-.4, -.2)'), ('loc7', '(-.2, .4)'), ('loc8', '(.2, .2)'), ('color1', 'yellow'), ('color2', 'white'), ('color3', 'grey'), ('color4', 'grey'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'red'), ('trial_type', 'change'), ('set_size', 2), ('correct', 'f')]), OrderedDict([('loc1', '(-.4, -.2)'), ('loc2', '(.2, .4)'), ('loc3', '(-.4, 0)'), ('loc4', '(.4, .4)'), ('loc5', '(-.2, -.2)'), ('loc6', '(.4, -.4)'), ('loc7', '(.4, -.2)'), ('loc8', '(.2, 0)'), ('color1', 'red'), ('color2', 'orange'), ('color3', 'blue'), ('color4', 'red'), ('color5', 'cyan'), ('color6', 'violet'), ('color7', 'green'), ('color8', 'yellow'), ('color9', 'black'), ('trial_type', 'no-change'), ('set_size', 8), ('correct', 'j')]), OrderedDict([('loc1', '(.4, .4)'), ('loc2', '(-.2, .2)'), ('loc3', '(-.2, 0)'), ('loc4', '(-.2, .4)'), ('loc5', '(.2, -.4)'), ('loc6', '(.4, -.4)'), ('loc7', '(.2, .2)'), ('loc8', '(.4, .2)'), ('color1', 'red'), ('color2', 'orange'), ('color3', 'blue'), ('color4', 'violet'), ('color5', 'white'), ('color6', 'green'), ('color7', 'black'), ('color8', 'red'), ('color9', 'yellow'), ('trial_type', 'no-change'), ('set_size', 8), ('correct', 'j')]), OrderedDict([('loc1', '(-.4, .4)'), ('loc2', '(.2, .4)'), ('loc3', '(.2, -.2)'), ('loc4', '(-.2, 0)'), ('loc5', '(-.4, -.2)'), ('loc6', '(.4, .4)'), ('loc7', '(.2, .2)'), ('loc8', '(.4, -.4)'), ('color1', 'yellow'), ('color2', 'orange'), ('color3', 'grey'), ('color4', 'grey'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'white'), ('trial_type', 'change'), ('set_size', 2), ('correct', 'f')]), OrderedDict([('loc1', '(.4, .4)'), ('loc2', '(.4, -.2)'), ('loc3', '(.2, 0)'), ('loc4', '(.4, .2)'), ('loc5', '(.2, .4)'), ('loc6', '(-.2, .4)'), ('loc7', '(-.2, .2)'), ('loc8', '(-.4, 0)'), ('color1', 'violet'), ('color2', 'red'), ('color3', 'grey'), ('color4', 'grey'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'yellow'), ('trial_type', 'change'), ('set_size', 2), ('correct', 'f')]), OrderedDict([('loc1', '(-.4, .2)'), ('loc2', '(-.2, .2)'), ('loc3', '(-.2, -.4)'), ('loc4', '(.4, -.2)'), ('loc5', '(-.2, 0)'), ('loc6', '(.4, 0)'), ('loc7', '(-.2, .4)'), ('loc8', '(.2, -.2)'), ('color1', 'orange'), ('color2', 'black'), ('color3', 'red'), ('color4', 'green'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'cyan'), ('trial_type', 'change'), ('set_size', 4), ('correct', 'f')]), OrderedDict([('loc1', '(-.2, .2)'), ('loc2', '(-.4, -.4)'), ('loc3', '(.2, 0)'), ('loc4', '(.4, .2)'), ('loc5', '(-.4, 0)'), ('loc6', '(.4, -.2)'), ('loc7', '(-.2, -.4)'), ('loc8', '(-.2, 0)'), ('color1', 'yellow'), ('color2', 'black'), ('color3', 'green'), ('color4', 'violet'), ('color5', 'red'), ('color6', 'white'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'blue'), ('trial_type', 'no-change'), ('set_size', 6), ('correct', 'j')]), OrderedDict([('loc1', '(-.2, -.4)'), ('loc2', '(-.4, .2)'), ('loc3', '(-.4, -.4)'), ('loc4', '(.4, .2)'), ('loc5', '(.2, -.4)'), ('loc6', '(-.2, -.2)'), ('loc7', '(-.4, 0)'), ('loc8', '(.4, -.4)'), ('color1', 'blue'), ('color2', 'black'), ('color3', 'violet'), ('color4', 'red'), ('color5', 'red'), ('color6', 'white'), ('color7', 'green'), ('color8', 'yellow'), ('color9', 'orange'), ('trial_type', 'no-change'), ('set_size', 8), ('correct', 'j')]), OrderedDict([('loc1', '(-.2, .2)'), ('loc2', '(.4, 0)'), ('loc3', '(.2, .4)'), ('loc4', '(-.4, .2)'), ('loc5', '(.4, .2)'), ('loc6', '(-.2, .4)'), ('loc7', '(-.4, -.4)'), ('loc8', '(-.4, .4)'), ('color1', 'orange'), ('color2', 'black'), ('color3', 'grey'), ('color4', 'grey'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'green'), ('trial_type', 'no-change'), ('set_size', 2), ('correct', 'j')]), OrderedDict([('loc1', '(.4, -.2)'), ('loc2', '(.4, .2)'), ('loc3', '(-.2, -.4)'), ('loc4', '(-.4, .4)'), ('loc5', '(.4, .4)'), ('loc6', '(.2, -.2)'), ('loc7', '(.4, -.4)'), ('loc8', '(.2, -.4)'), ('color1', 'red'), ('color2', 'blue'), ('color3', 'cyan'), ('color4', 'orange'), ('color5', 'white'), ('color6', 'yellow'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'violet'), ('trial_type', 'no-change'), ('set_size', 6), ('correct', 'j')]), OrderedDict([('loc1', '(.4, -.4)'), ('loc2', '(.2, .2)'), ('loc3', '(-.2, 0)'), ('loc4', '(-.2, .2)'), ('loc5', '(-.2, -.2)'), ('loc6', '(.2, -.2)'), ('loc7', '(-.2, .4)'), ('loc8', '(.4, .2)'), ('color1', 'yellow'), ('color2', 'red'), ('color3', 'violet'), ('color4', 'orange'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'black'), ('trial_type', 'no-change'), ('set_size', 4), ('correct', 'j')]), OrderedDict([('loc1', '(.2, -.4)'), ('loc2', '(.4, -.4)'), ('loc3', '(.4, .4)'), ('loc4', '(-.4, -.2)'), ('loc5', '(.4, -.2)'), ('loc6', '(-.2, 0)'), ('loc7', '(.4, .2)'), ('loc8', '(.2, .2)'), ('color1', 'yellow'), ('color2', 'red'), ('color3', 'white'), ('color4', 'green'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'orange'), ('trial_type', 'no-change'), ('set_size', 4), ('correct', 'j')]), OrderedDict([('loc1', '(.2, -.2)'), ('loc2', '(.2, -.4)'), ('loc3', '(-.2, .2)'), ('loc4', '(.4, -.2)'), ('loc5', '(.2, .4)'), ('loc6', '(-.2, .4)'), ('loc7', '(-.4, -.2)'), ('loc8', '(-.4, 0)'), ('color1', 'blue'), ('color2', 'orange'), ('color3', 'cyan'), ('color4', 'red'), ('color5', 'black'), ('color6', 'violet'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'green'), ('trial_type', 'change'), ('set_size', 6), ('correct', 'f')]), OrderedDict([('loc1', '(-.4, -.4)'), ('loc2', '(.4, -.4)'), ('loc3', '(.2, .4)'), ('loc4', '(.2, 0)'), ('loc5', '(-.2, -.4)'), ('loc6', '(-.4, .4)'), ('loc7', '(-.4, .2)'), ('loc8', '(-.2, .4)'), ('color1', 'red'), ('color2', 'violet'), ('color3', 'yellow'), ('color4', 'white'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'green'), ('trial_type', 'no-change'), ('set_size', 4), ('correct', 'j')]), OrderedDict([('loc1', '(.4, .4)'), ('loc2', '(-.4, -.4)'), ('loc3', '(-.4, -.2)'), ('loc4', '(-.4, .2)'), ('loc5', '(.2, .4)'), ('loc6', '(.2, -.2)'), ('loc7', '(.2, 0)'), ('loc8', '(.4, -.2)'), ('color1', 'cyan'), ('color2', 'red'), ('color3', 'black'), ('color4', 'red'), ('color5', 'blue'), ('color6', 'white'), ('color7', 'green'), ('color8', 'violet'), ('color9', 'yellow'), ('trial_type', 'change'), ('set_size', 8), ('correct', 'f')]), OrderedDict([('loc1', '(-.2, .2)'), ('loc2', '(.4, .2)'), ('loc3', '(.4, 0)'), ('loc4', '(.4, -.2)'), ('loc5', '(.4, -.4)'), ('loc6', '(-.4, -.2)'), ('loc7', '(.2, 0)'), ('loc8', '(-.4, .4)'), ('color1', 'black'), ('color2', 'cyan'), ('color3', 'red'), ('color4', 'orange'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'yellow'), ('trial_type', 'no-change'), ('set_size', 4), ('correct', 'j')]), OrderedDict([('loc1', '(.2, -.4)'), ('loc2', '(-.2, .4)'), ('loc3', '(-.2, -.4)'), ('loc4', '(-.4, -.2)'), ('loc5', '(-.2, .2)'), ('loc6', '(-.4, -.4)'), ('loc7', '(.4, 0)'), ('loc8', '(.2, 0)'), ('color1', 'red'), ('color2', 'cyan'), ('color3', 'yellow'), ('color4', 'red'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'black'), ('trial_type', 'no-change'), ('set_size', 4), ('correct', 'j')]), OrderedDict([('loc1', '(.2, 0)'), ('loc2', '(-.4, -.2)'), ('loc3', '(.4, .4)'), ('loc4', '(-.2, .4)'), ('loc5', '(.4, -.2)'), ('loc6', '(.4, 0)'), ('loc7', '(.2, .4)'), ('loc8', '(.2, .2)'), ('color1', 'blue'), ('color2', 'red'), ('color3', 'grey'), ('color4', 'grey'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'cyan'), ('trial_type', 'no-change'), ('set_size', 2), ('correct', 'j')]), OrderedDict([('loc1', '(-.2, .4)'), ('loc2', '(.2, .2)'), ('loc3', '(-.4, .2)'), ('loc4', '(.4, .4)'), ('loc5', '(-.2, 0)'), ('loc6', '(.2, .4)'), ('loc7', '(-.4, -.4)'), ('loc8', '(.4, 0)'), ('color1', 'black'), ('color2', 'blue'), ('color3', 'yellow'), ('color4', 'red'), ('color5', 'violet'), ('color6', 'cyan'), ('color7', 'orange'), ('color8', 'white'), ('color9', 'red'), ('trial_type', 'no-change'), ('set_size', 8), ('correct', 'j')]), OrderedDict([('loc1', '(.2, -.2)'), ('loc2', '(.4, -.4)'), ('loc3', '(-.4, 0)'), ('loc4', '(-.4, -.4)'), ('loc5', '(-.2, .2)'), ('loc6', '(-.4, -.2)'), ('loc7', '(.2, .2)'), ('loc8', '(.4, .2)'), ('color1', 'red'), ('color2', 'black'), ('color3', 'red'), ('color4', 'white'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'blue'), ('trial_type', 'no-change'), ('set_size', 4), ('correct', 'j')]), OrderedDict([('loc1', '(-.4, -.2)'), ('loc2', '(.2, -.2)'), ('loc3', '(.2, .4)'), ('loc4', '(-.4, -.4)'), ('loc5', '(-.2, .2)'), ('loc6', '(.2, -.4)'), ('loc7', '(-.4, .2)'), ('loc8', '(-.2, .4)'), ('color1', 'black'), ('color2', 'red'), ('color3', 'green'), ('color4', 'violet'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'blue'), ('trial_type', 'no-change'), ('set_size', 4), ('correct', 'j')]), OrderedDict([('loc1', '(-.4, -.2)'), ('loc2', '(-.2, 0)'), ('loc3', '(.4, .4)'), ('loc4', '(-.2, .4)'), ('loc5', '(-.4, 0)'), ('loc6', '(.2, 0)'), ('loc7', '(-.2, -.2)'), ('loc8', '(.2, .2)'), ('color1', 'red'), ('color2', 'orange'), ('color3', 'violet'), ('color4', 'black'), ('color5', 'red'), ('color6', 'cyan'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'yellow'), ('trial_type', 'change'), ('set_size', 6), ('correct', 'f')]), OrderedDict([('loc1', '(.4, -.4)'), ('loc2', '(.4, .4)'), ('loc3', '(-.4, -.2)'), ('loc4', '(.4, -.2)'), ('loc5', '(-.4, .4)'), ('loc6', '(.2, .4)'), ('loc7', '(-.4, .2)'), ('loc8', '(-.2, -.2)'), ('color1', 'blue'), ('color2', 'orange'), ('color3', 'white'), ('color4', 'red'), ('color5', 'red'), ('color6', 'black'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'yellow'), ('trial_type', 'change'), ('set_size', 6), ('correct', 'f')]), OrderedDict([('loc1', '(-.4, .2)'), ('loc2', '(.4, .2)'), ('loc3', '(-.4, -.2)'), ('loc4', '(-.4, -.4)'), ('loc5', '(.2, -.4)'), ('loc6', '(-.2, 0)'), ('loc7', '(.4, 0)'), ('loc8', '(-.4, 0)'), ('color1', 'black'), ('color2', 'red'), ('color3', 'yellow'), ('color4', 'violet'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'cyan'), ('trial_type', 'no-change'), ('set_size', 4), ('correct', 'j')]), OrderedDict([('loc1', '(.2, 0)'), ('loc2', '(.4, -.4)'), ('loc3', '(.2, -.4)'), ('loc4', '(.2, .2)'), ('loc5', '(-.2, 0)'), ('loc6', '(.4, .2)'), ('loc7', '(-.2, -.4)'), ('loc8', '(-.2, .2)'), ('color1', 'green'), ('color2', 'black'), ('color3', 'yellow'), ('color4', 'red'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'orange'), ('trial_type', 'no-change'), ('set_size', 4), ('correct', 'j')]), OrderedDict([('loc1', '(.4, .2)'), ('loc2', '(.4, -.4)'), ('loc3', '(-.4, -.4)'), ('loc4', '(-.2, .4)'), ('loc5', '(-.2, .2)'), ('loc6', '(.4, 0)'), ('loc7', '(-.2, 0)'), ('loc8', '(-.2, -.4)'), ('color1', 'blue'), ('color2', 'green'), ('color3', 'white'), ('color4', 'violet'), ('color5', 'orange'), ('color6', 'red'), ('color7', 'black'), ('color8', 'red'), ('color9', 'cyan'), ('trial_type', 'change'), ('set_size', 8), ('correct', 'f')]), OrderedDict([('loc1', '(.2, 0)'), ('loc2', '(-.4, 0)'), ('loc3', '(-.2, -.2)'), ('loc4', '(-.4, -.4)'), ('loc5', '(.4, .4)'), ('loc6', '(.2, -.2)'), ('loc7', '(-.4, .2)'), ('loc8', '(.2, .2)'), ('color1', 'red'), ('color2', 'blue'), ('color3', 'grey'), ('color4', 'grey'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'violet'), ('trial_type', 'no-change'), ('set_size', 2), ('correct', 'j')]), OrderedDict([('loc1', '(-.2, -.4)'), ('loc2', '(.2, -.4)'), ('loc3', '(.4, -.2)'), ('loc4', '(-.4, 0)'), ('loc5', '(-.4, -.2)'), ('loc6', '(.4, .4)'), ('loc7', '(.4, 0)'), ('loc8', '(-.4, .4)'), ('color1', 'red'), ('color2', 'blue'), ('color3', 'red'), ('color4', 'green'), ('color5', 'black'), ('color6', 'cyan'), ('color7', 'white'), ('color8', 'orange'), ('color9', 'yellow'), ('trial_type', 'no-change'), ('set_size', 8), ('correct', 'j')]), OrderedDict([('loc1', '(.4, -.4)'), ('loc2', '(-.2, -.2)'), ('loc3', '(-.4, -.2)'), ('loc4', '(-.4, -.4)'), ('loc5', '(-.2, 0)'), ('loc6', '(.2, -.2)'), ('loc7', '(.2, -.4)'), ('loc8', '(-.4, .4)'), ('color1', 'yellow'), ('color2', 'red'), ('color3', 'green'), ('color4', 'black'), ('color5', 'red'), ('color6', 'blue'), ('color7', 'cyan'), ('color8', 'white'), ('color9', 'orange'), ('trial_type', 'change'), ('set_size', 8), ('correct', 'f')]), OrderedDict([('loc1', '(.2, -.2)'), ('loc2', '(.4, 0)'), ('loc3', '(.2, 0)'), ('loc4', '(-.4, 0)'), ('loc5', '(.4, .2)'), ('loc6', '(-.4, -.4)'), ('loc7', '(-.2, .4)'), ('loc8', '(-.4, .2)'), ('color1', 'orange'), ('color2', 'blue'), ('color3', 'yellow'), ('color4', 'black'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'cyan'), ('trial_type', 'change'), ('set_size', 4), ('correct', 'f')]), OrderedDict([('loc1', '(.2, .2)'), ('loc2', '(.4, -.2)'), ('loc3', '(-.4, -.4)'), ('loc4', '(-.2, .4)'), ('loc5', '(-.2, -.4)'), ('loc6', '(-.4, 0)'), ('loc7', '(.4, -.4)'), ('loc8', '(-.2, 0)'), ('color1', 'black'), ('color2', 'green'), ('color3', 'grey'), ('color4', 'grey'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'blue'), ('trial_type', 'no-change'), ('set_size', 2), ('correct', 'j')]), OrderedDict([('loc1', '(.2, .4)'), ('loc2', '(-.4, -.4)'), ('loc3', '(-.4, -.2)'), ('loc4', '(.2, -.4)'), ('loc5', '(-.2, -.4)'), ('loc6', '(-.2, 0)'), ('loc7', '(-.2, .4)'), ('loc8', '(.4, 0)'), ('color1', 'red'), ('color2', 'blue'), ('color3', 'yellow'), ('color4', 'white'), ('color5', 'orange'), ('color6', 'red'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'violet'), ('trial_type', 'change'), ('set_size', 6), ('correct', 'f')]), OrderedDict([('loc1', '(.4, 0)'), ('loc2', '(.2, 0)'), ('loc3', '(.2, -.4)'), ('loc4', '(-.4, .2)'), ('loc5', '(.2, .4)'), ('loc6', '(-.4, .4)'), ('loc7', '(.2, -.2)'), ('loc8', '(.4, -.4)'), ('color1', 'white'), ('color2', 'black'), ('color3', 'green'), ('color4', 'yellow'), ('color5', 'blue'), ('color6', 'cyan'), ('color7', 'red'), ('color8', 'red'), ('color9', 'orange'), ('trial_type', 'change'), ('set_size', 8), ('correct', 'f')]), OrderedDict([('loc1', '(-.4, .2)'), ('loc2', '(.2, -.4)'), ('loc3', '(.4, 0)'), ('loc4', '(.4, .2)'), ('loc5', '(.2, -.2)'), ('loc6', '(-.2, -.2)'), ('loc7', '(-.2, 0)'), ('loc8', '(-.4, .4)'), ('color1', 'green'), ('color2', 'black'), ('color3', 'violet'), ('color4', 'orange'), ('color5', 'white'), ('color6', 'red'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'cyan'), ('trial_type', 'change'), ('set_size', 6), ('correct', 'f')]), OrderedDict([('loc1', '(.4, -.4)'), ('loc2', '(.4, .2)'), ('loc3', '(-.4, .4)'), ('loc4', '(-.2, 0)'), ('loc5', '(-.4, .2)'), ('loc6', '(-.2, -.4)'), ('loc7', '(-.2, .4)'), ('loc8', '(-.2, .2)'), ('color1', 'orange'), ('color2', 'red'), ('color3', 'white'), ('color4', 'blue'), ('color5', 'red'), ('color6', 'yellow'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'green'), ('trial_type', 'no-change'), ('set_size', 6), ('correct', 'j')]), OrderedDict([('loc1', '(.4, 0)'), ('loc2', '(.2, -.4)'), ('loc3', '(-.4, .4)'), ('loc4', '(-.4, -.2)'), ('loc5', '(-.2, -.2)'), ('loc6', '(.4, -.2)'), ('loc7', '(.4, .2)'), ('loc8', '(.2, .2)'), ('color1', 'yellow'), ('color2', 'white'), ('color3', 'green'), ('color4', 'blue'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'orange'), ('trial_type', 'change'), ('set_size', 4), ('correct', 'f')]), OrderedDict([('loc1', '(.4, -.4)'), ('loc2', '(-.4, 0)'), ('loc3', '(-.4, -.4)'), ('loc4', '(-.2, 0)'), ('loc5', '(.4, .4)'), ('loc6', '(.4, 0)'), ('loc7', '(.2, 0)'), ('loc8', '(.2, .2)'), ('color1', 'black'), ('color2', 'cyan'), ('color3', 'orange'), ('color4', 'red'), ('color5', 'yellow'), ('color6', 'violet'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'red'), ('trial_type', 'no-change'), ('set_size', 6), ('correct', 'j')]), OrderedDict([('loc1', '(-.4, 0)'), ('loc2', '(.4, -.4)'), ('loc3', '(.2, -.2)'), ('loc4', '(.4, 0)'), ('loc5', '(.4, -.2)'), ('loc6', '(-.4, .2)'), ('loc7', '(.4, .4)'), ('loc8', '(-.4, -.4)'), ('color1', 'black'), ('color2', 'cyan'), ('color3', 'blue'), ('color4', 'yellow'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'red'), ('trial_type', 'change'), ('set_size', 4), ('correct', 'f')]), OrderedDict([('loc1', '(.2, -.4)'), ('loc2', '(.4, .4)'), ('loc3', '(-.2, .2)'), ('loc4', '(.2, 0)'), ('loc5', '(-.4, .2)'), ('loc6', '(-.2, .4)'), ('loc7', '(-.4, .4)'), ('loc8', '(-.4, -.2)'), ('color1', 'red'), ('color2', 'red'), ('color3', 'grey'), ('color4', 'grey'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'cyan'), ('trial_type', 'change'), ('set_size', 2), ('correct', 'f')]), OrderedDict([('loc1', '(-.4, 0)'), ('loc2', '(.2, .2)'), ('loc3', '(-.4, .4)'), ('loc4', '(-.2, .2)'), ('loc5', '(.2, .4)'), ('loc6', '(.2, 0)'), ('loc7', '(.4, .2)'), ('loc8', '(-.4, .2)'), ('color1', 'orange'), ('color2', 'green'), ('color3', 'blue'), ('color4', 'red'), ('color5', 'violet'), ('color6', 'red'), ('color7', 'white'), ('color8', 'yellow'), ('color9', 'cyan'), ('trial_type', 'change'), ('set_size', 8), ('correct', 'f')]), OrderedDict([('loc1', '(.4, .2)'), ('loc2', '(-.4, -.2)'), ('loc3', '(.4, 0)'), ('loc4', '(-.2, -.4)'), ('loc5', '(.2, 0)'), ('loc6', '(.2, -.4)'), ('loc7', '(-.2, -.2)'), ('loc8', '(-.4, 0)'), ('color1', 'red'), ('color2', 'orange'), ('color3', 'cyan'), ('color4', 'red'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'white'), ('trial_type', 'change'), ('set_size', 4), ('correct', 'f')]), OrderedDict([('loc1', '(.2, -.2)'), ('loc2', '(-.2, 0)'), ('loc3', '(-.4, .4)'), ('loc4', '(.2, -.4)'), ('loc5', '(-.2, -.2)'), ('loc6', '(.2, .2)'), ('loc7', '(-.4, -.4)'), ('loc8', '(-.2, -.4)'), ('color1', 'orange'), ('color2', 'black'), ('color3', 'blue'), ('color4', 'red'), ('color5', 'yellow'), ('color6', 'white'), ('color7', 'violet'), ('color8', 'cyan'), ('color9', 'green'), ('trial_type', 'no-change'), ('set_size', 8), ('correct', 'j')]), OrderedDict([('loc1', '(-.2, -.4)'), ('loc2', '(.2, -.2)'), ('loc3', '(-.4, -.4)'), ('loc4', '(-.4, 0)'), ('loc5', '(.2, -.4)'), ('loc6', '(-.4, .2)'), ('loc7', '(.4, -.2)'), ('loc8', '(-.2, 0)'), ('color1', 'yellow'), ('color2', 'red'), ('color3', 'violet'), ('color4', 'cyan'), ('color5', 'white'), ('color6', 'orange'), ('color7', 'green'), ('color8', 'black'), ('color9', 'red'), ('trial_type', 'no-change'), ('set_size', 8), ('correct', 'j')]), OrderedDict([('loc1', '(-.2, 0)'), ('loc2', '(.4, 0)'), ('loc3', '(.4, .4)'), ('loc4', '(-.4, .2)'), ('loc5', '(-.4, 0)'), ('loc6', '(.4, .2)'), ('loc7', '(-.2, -.4)'), ('loc8', '(.4, -.2)'), ('color1', 'blue'), ('color2', 'cyan'), ('color3', 'yellow'), ('color4', 'red'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'black'), ('trial_type', 'change'), ('set_size', 4), ('correct', 'f')]), OrderedDict([('loc1', '(-.4, 0)'), ('loc2', '(.2, .4)'), ('loc3', '(.4, -.4)'), ('loc4', '(.2, -.4)'), ('loc5', '(.2, .2)'), ('loc6', '(.4, 0)'), ('loc7', '(.2, -.2)'), ('loc8', '(-.4, -.4)'), ('color1', 'violet'), ('color2', 'red'), ('color3', 'white'), ('color4', 'yellow'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'cyan'), ('trial_type', 'change'), ('set_size', 4), ('correct', 'f')]), OrderedDict([('loc1', '(-.4, .4)'), ('loc2', '(-.2, .2)'), ('loc3', '(-.4, 0)'), ('loc4', '(.4, -.4)'), ('loc5', '(-.4, -.4)'), ('loc6', '(.2, -.2)'), ('loc7', '(-.2, -.2)'), ('loc8', '(-.2, 0)'), ('color1', 'red'), ('color2', 'orange'), ('color3', 'cyan'), ('color4', 'white'), ('color5', 'green'), ('color6', 'red'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'violet'), ('trial_type', 'no-change'), ('set_size', 6), ('correct', 'j')]), OrderedDict([('loc1', '(.4, -.4)'), ('loc2', '(-.4, 0)'), ('loc3', '(.4, .4)'), ('loc4', '(.2, .4)'), ('loc5', '(.4, .2)'), ('loc6', '(-.4, -.4)'), ('loc7', '(-.2, -.4)'), ('loc8', '(-.2, 0)'), ('color1', 'violet'), ('color2', 'black'), ('color3', 'green'), ('color4', 'blue'), ('color5', 'white'), ('color6', 'orange'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'red'), ('trial_type', 'change'), ('set_size', 6), ('correct', 'f')]), OrderedDict([('loc1', '(-.2, 0)'), ('loc2', '(.4, .4)'), ('loc3', '(-.2, .4)'), ('loc4', '(-.4, -.4)'), ('loc5', '(.4, -.2)'), ('loc6', '(.4, 0)'), ('loc7', '(-.4, -.2)'), ('loc8', '(-.4, .4)'), ('color1', 'green'), ('color2', 'red'), ('color3', 'red'), ('color4', 'black'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'violet'), ('trial_type', 'no-change'), ('set_size', 4), ('correct', 'j')]), OrderedDict([('loc1', '(.4, -.2)'), ('loc2', '(.2, .4)'), ('loc3', '(-.4, 0)'), ('loc4', '(-.2, -.2)'), ('loc5', '(.4, 0)'), ('loc6', '(.4, .4)'), ('loc7', '(.2, 0)'), ('loc8', '(-.2, 0)'), ('color1', 'cyan'), ('color2', 'orange'), ('color3', 'violet'), ('color4', 'red'), ('color5', 'black'), ('color6', 'red'), ('color7', 'white'), ('color8', 'blue'), ('color9', 'green'), ('trial_type', 'change'), ('set_size', 8), ('correct', 'f')]), OrderedDict([('loc1', '(.2, -.2)'), ('loc2', '(.2, .4)'), ('loc3', '(.4, .2)'), ('loc4', '(-.4, 0)'), ('loc5', '(.4, -.4)'), ('loc6', '(.2, 0)'), ('loc7', '(-.2, 0)'), ('loc8', '(-.2, -.2)'), ('color1', 'yellow'), ('color2', 'cyan'), ('color3', 'red'), ('color4', 'white'), ('color5', 'blue'), ('color6', 'orange'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'red'), ('trial_type', 'change'), ('set_size', 6), ('correct', 'f')]), OrderedDict([('loc1', '(-.4, -.4)'), ('loc2', '(.2, -.2)'), ('loc3', '(-.2, -.2)'), ('loc4', '(.4, .2)'), ('loc5', '(.4, .4)'), ('loc6', '(.2, 0)'), ('loc7', '(.4, 0)'), ('loc8', '(-.2, -.4)'), ('color1', 'white'), ('color2', 'cyan'), ('color3', 'blue'), ('color4', 'orange'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'violet'), ('trial_type', 'change'), ('set_size', 4), ('correct', 'f')]), OrderedDict([('loc1', '(.2, .2)'), ('loc2', '(.2, .4)'), ('loc3', '(.2, -.4)'), ('loc4', '(-.2, -.4)'), ('loc5', '(-.2, .2)'), ('loc6', '(-.4, -.4)'), ('loc7', '(-.2, 0)'), ('loc8', '(-.2, .4)'), ('color1', 'orange'), ('color2', 'violet'), ('color3', 'red'), ('color4', 'blue'), ('color5', 'white'), ('color6', 'green'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'red'), ('trial_type', 'no-change'), ('set_size', 6), ('correct', 'j')]), OrderedDict([('loc1', '(-.4, .2)'), ('loc2', '(.2, .4)'), ('loc3', '(-.2, 0)'), ('loc4', '(-.2, -.2)'), ('loc5', '(.4, -.4)'), ('loc6', '(-.2, .4)'), ('loc7', '(.2, -.4)'), ('loc8', '(-.4, 0)'), ('color1', 'blue'), ('color2', 'yellow'), ('color3', 'grey'), ('color4', 'grey'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'white'), ('trial_type', 'no-change'), ('set_size', 2), ('correct', 'j')]), OrderedDict([('loc1', '(-.2, -.2)'), ('loc2', '(.4, .2)'), ('loc3', '(.2, -.2)'), ('loc4', '(-.2, 0)'), ('loc5', '(-.4, 0)'), ('loc6', '(-.4, .2)'), ('loc7', '(.4, 0)'), ('loc8', '(.4, .4)'), ('color1', 'orange'), ('color2', 'red'), ('color3', 'red'), ('color4', 'cyan'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'green'), ('trial_type', 'no-change'), ('set_size', 4), ('correct', 'j')]), OrderedDict([('loc1', '(-.4, -.2)'), ('loc2', '(.2, .4)'), ('loc3', '(-.2, -.2)'), ('loc4', '(.4, -.4)'), ('loc5', '(.4, -.2)'), ('loc6', '(-.4, .4)'), ('loc7', '(-.4, -.4)'), ('loc8', '(.2, -.4)'), ('color1', 'yellow'), ('color2', 'red'), ('color3', 'white'), ('color4', 'green'), ('color5', 'orange'), ('color6', 'cyan'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'black'), ('trial_type', 'no-change'), ('set_size', 6), ('correct', 'j')]), OrderedDict([('loc1', '(.2, .2)'), ('loc2', '(-.2, .4)'), ('loc3', '(-.2, -.4)'), ('loc4', '(-.4, .4)'), ('loc5', '(-.4, -.4)'), ('loc6', '(.4, -.4)'), ('loc7', '(-.2, -.2)'), ('loc8', '(-.2, 0)'), ('color1', 'red'), ('color2', 'green'), ('color3', 'red'), ('color4', 'cyan'), ('color5', 'yellow'), ('color6', 'orange'), ('color7', 'violet'), ('color8', 'white'), ('color9', 'blue'), ('trial_type', 'no-change'), ('set_size', 8), ('correct', 'j')]), OrderedDict([('loc1', '(.4, -.4)'), ('loc2', '(-.2, .2)'), ('loc3', '(-.4, -.4)'), ('loc4', '(-.4, 0)'), ('loc5', '(.4, -.2)'), ('loc6', '(-.4, -.2)'), ('loc7', '(.2, .4)'), ('loc8', '(-.2, -.4)'), ('color1', 'red'), ('color2', 'violet'), ('color3', 'black'), ('color4', 'green'), ('color5', 'white'), ('color6', 'cyan'), ('color7', 'orange'), ('color8', 'blue'), ('color9', 'red'), ('trial_type', 'change'), ('set_size', 8), ('correct', 'f')]), OrderedDict([('loc1', '(-.2, 0)'), ('loc2', '(-.4, 0)'), ('loc3', '(-.2, .2)'), ('loc4', '(.2, -.4)'), ('loc5', '(.4, .2)'), ('loc6', '(-.4, -.2)'), ('loc7', '(-.4, .2)'), ('loc8', '(-.2, -.2)'), ('color1', 'green'), ('color2', 'yellow'), ('color3', 'grey'), ('color4', 'grey'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'red'), ('trial_type', 'change'), ('set_size', 2), ('correct', 'f')]), OrderedDict([('loc1', '(.2, .2)'), ('loc2', '(-.2, .2)'), ('loc3', '(-.2, .4)'), ('loc4', '(-.4, .2)'), ('loc5', '(-.2, -.4)'), ('loc6', '(-.2, -.2)'), ('loc7', '(.4, -.4)'), ('loc8', '(.2, 0)'), ('color1', 'white'), ('color2', 'green'), ('color3', 'orange'), ('color4', 'violet'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'blue'), ('trial_type', 'change'), ('set_size', 4), ('correct', 'f')]), OrderedDict([('loc1', '(-.4, .4)'), ('loc2', '(-.2, .2)'), ('loc3', '(-.4, -.4)'), ('loc4', '(-.2, .4)'), ('loc5', '(.2, .4)'), ('loc6', '(.2, 0)'), ('loc7', '(-.2, -.2)'), ('loc8', '(-.4, -.2)'), ('color1', 'red'), ('color2', 'orange'), ('color3', 'grey'), ('color4', 'grey'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'blue'), ('trial_type', 'change'), ('set_size', 2), ('correct', 'f')]), OrderedDict([('loc1', '(-.2, -.4)'), ('loc2', '(.4, .2)'), ('loc3', '(.2, -.2)'), ('loc4', '(-.4, -.4)'), ('loc5', '(.4, -.2)'), ('loc6', '(-.4, 0)'), ('loc7', '(-.2, 0)'), ('loc8', '(-.2, .4)'), ('color1', 'violet'), ('color2', 'white'), ('color3', 'grey'), ('color4', 'grey'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'green'), ('trial_type', 'change'), ('set_size', 2), ('correct', 'f')]), OrderedDict([('loc1', '(-.2, 0)'), ('loc2', '(.2, .2)'), ('loc3', '(.4, .4)'), ('loc4', '(-.4, -.2)'), ('loc5', '(-.2, .4)'), ('loc6', '(-.2, .2)'), ('loc7', '(-.4, 0)'), ('loc8', '(-.4, -.4)'), ('color1', 'orange'), ('color2', 'cyan'), ('color3', 'grey'), ('color4', 'grey'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'red'), ('trial_type', 'no-change'), ('set_size', 2), ('correct', 'j')]), OrderedDict([('loc1', '(-.2, -.2)'), ('loc2', '(-.2, .2)'), ('loc3', '(.2, -.2)'), ('loc4', '(.2, .4)'), ('loc5', '(.4, 0)'), ('loc6', '(.2, .2)'), ('loc7', '(-.4, .2)'), ('loc8', '(-.4, -.4)'), ('color1', 'white'), ('color2', 'red'), ('color3', 'red'), ('color4', 'green'), ('color5', 'black'), ('color6', 'violet'), ('color7', 'yellow'), ('color8', 'blue'), ('color9', 'cyan'), ('trial_type', 'change'), ('set_size', 8), ('correct', 'f')]), OrderedDict([('loc1', '(-.4, -.4)'), ('loc2', '(.2, 0)'), ('loc3', '(-.2, .2)'), ('loc4', '(.4, -.4)'), ('loc5', '(-.4, .4)'), ('loc6', '(.2, -.2)'), ('loc7', '(.4, .4)'), ('loc8', '(-.4, 0)'), ('color1', 'cyan'), ('color2', 'red'), ('color3', 'violet'), ('color4', 'black'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'red'), ('trial_type', 'no-change'), ('set_size', 4), ('correct', 'j')]), OrderedDict([('loc1', '(-.4, -.4)'), ('loc2', '(.4, .4)'), ('loc3', '(.2, .4)'), ('loc4', '(-.2, -.2)'), ('loc5', '(.2, 0)'), ('loc6', '(.2, -.2)'), ('loc7', '(.4, -.2)'), ('loc8', '(-.4, .4)'), ('color1', 'green'), ('color2', 'black'), ('color3', 'violet'), ('color4', 'orange'), ('color5', 'red'), ('color6', 'white'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'yellow'), ('trial_type', 'change'), ('set_size', 6), ('correct', 'f')]), OrderedDict([('loc1', '(.4, -.4)'), ('loc2', '(.2, -.2)'), ('loc3', '(.4, 0)'), ('loc4', '(.2, 0)'), ('loc5', '(-.4, 0)'), ('loc6', '(-.2, .4)'), ('loc7', '(.2, .4)'), ('loc8', '(.2, -.4)'), ('color1', 'green'), ('color2', 'red'), ('color3', 'red'), ('color4', 'violet'), ('color5', 'white'), ('color6', 'orange'), ('color7', 'cyan'), ('color8', 'blue'), ('color9', 'yellow'), ('trial_type', 'no-change'), ('set_size', 8), ('correct', 'j')]), OrderedDict([('loc1', '(-.2, .2)'), ('loc2', '(-.4, -.4)'), ('loc3', '(-.2, -.2)'), ('loc4', '(-.4, .4)'), ('loc5', '(.2, .4)'), ('loc6', '(-.2, .4)'), ('loc7', '(.2, .2)'), ('loc8', '(-.2, 0)'), ('color1', 'black'), ('color2', 'red'), ('color3', 'yellow'), ('color4', 'cyan'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'orange'), ('trial_type', 'no-change'), ('set_size', 4), ('correct', 'j')]), OrderedDict([('loc1', '(-.2, .2)'), ('loc2', '(.4, -.4)'), ('loc3', '(.2, .2)'), ('loc4', '(.4, .2)'), ('loc5', '(.4, -.2)'), ('loc6', '(-.2, 0)'), ('loc7', '(-.2, -.4)'), ('loc8', '(.2, -.4)'), ('color1', 'red'), ('color2', 'cyan'), ('color3', 'orange'), ('color4', 'blue'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'white'), ('trial_type', 'change'), ('set_size', 4), ('correct', 'f')]), OrderedDict([('loc1', '(-.4, .2)'), ('loc2', '(.4, .4)'), ('loc3', '(-.2, .2)'), ('loc4', '(-.2, -.2)'), ('loc5', '(-.4, 0)'), ('loc6', '(.2, -.2)'), ('loc7', '(.4, -.2)'), ('loc8', '(.4, -.4)'), ('color1', 'red'), ('color2', 'yellow'), ('color3', 'red'), ('color4', 'violet'), ('color5', 'black'), ('color6', 'white'), ('color7', 'blue'), ('color8', 'green'), ('color9', 'cyan'), ('trial_type', 'no-change'), ('set_size', 8), ('correct', 'j')]), OrderedDict([('loc1', '(.4, .4)'), ('loc2', '(-.4, 0)'), ('loc3', '(-.2, 0)'), ('loc4', '(-.2, .4)'), ('loc5', '(-.4, .4)'), ('loc6', '(.4, .2)'), ('loc7', '(-.2, -.2)'), ('loc8', '(-.4, -.2)'), ('color1', 'black'), ('color2', 'violet'), ('color3', 'grey'), ('color4', 'grey'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'yellow'), ('trial_type', 'change'), ('set_size', 2), ('correct', 'f')]), OrderedDict([('loc1', '(-.4, 0)'), ('loc2', '(-.4, -.2)'), ('loc3', '(.2, .4)'), ('loc4', '(-.2, -.2)'), ('loc5', '(.4, .2)'), ('loc6', '(.4, -.4)'), ('loc7', '(-.4, .4)'), ('loc8', '(-.2, -.4)'), ('color1', 'blue'), ('color2', 'green'), ('color3', 'violet'), ('color4', 'black'), ('color5', 'orange'), ('color6', 'yellow'), ('color7', 'white'), ('color8', 'red'), ('color9', 'red'), ('trial_type', 'change'), ('set_size', 8), ('correct', 'f')]), OrderedDict([('loc1', '(-.2, .2)'), ('loc2', '(-.4, .2)'), ('loc3', '(-.2, -.2)'), ('loc4', '(-.4, 0)'), ('loc5', '(.2, 0)'), ('loc6', '(.2, .2)'), ('loc7', '(-.4, -.2)'), ('loc8', '(.4, 0)'), ('color1', 'orange'), ('color2', 'green'), ('color3', 'grey'), ('color4', 'grey'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'red'), ('trial_type', 'change'), ('set_size', 2), ('correct', 'f')]), OrderedDict([('loc1', '(.4, -.4)'), ('loc2', '(-.4, 0)'), ('loc3', '(-.2, .4)'), ('loc4', '(.4, -.2)'), ('loc5', '(.2, 0)'), ('loc6', '(.4, 0)'), ('loc7', '(.4, .2)'), ('loc8', '(.2, -.2)'), ('color1', 'yellow'), ('color2', 'black'), ('color3', 'white'), ('color4', 'blue'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'red'), ('trial_type', 'change'), ('set_size', 4), ('correct', 'f')]), OrderedDict([('loc1', '(-.4, .2)'), ('loc2', '(.4, .2)'), ('loc3', '(.4, -.4)'), ('loc4', '(-.4, -.4)'), ('loc5', '(.2, 0)'), ('loc6', '(-.2, .4)'), ('loc7', '(-.2, -.4)'), ('loc8', '(-.4, 0)'), ('color1', 'black'), ('color2', 'orange'), ('color3', 'violet'), ('color4', 'yellow'), ('color5', 'blue'), ('color6', 'white'), ('color7', 'red'), ('color8', 'cyan'), ('color9', 'green'), ('trial_type', 'change'), ('set_size', 8), ('correct', 'f')]), OrderedDict([('loc1', '(.2, 0)'), ('loc2', '(-.2, .2)'), ('loc3', '(-.4, .2)'), ('loc4', '(.4, -.2)'), ('loc5', '(-.2, 0)'), ('loc6', '(.4, .2)'), ('loc7', '(-.2, -.4)'), ('loc8', '(-.2, .4)'), ('color1', 'yellow'), ('color2', 'black'), ('color3', 'violet'), ('color4', 'white'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'green'), ('trial_type', 'change'), ('set_size', 4), ('correct', 'f')]), OrderedDict([('loc1', '(.4, -.4)'), ('loc2', '(.2, 0)'), ('loc3', '(-.4, .2)'), ('loc4', '(-.4, 0)'), ('loc5', '(.2, .2)'), ('loc6', '(.4, 0)'), ('loc7', '(-.2, -.4)'), ('loc8', '(-.2, .2)'), ('color1', 'violet'), ('color2', 'orange'), ('color3', 'black'), ('color4', 'yellow'), ('color5', 'red'), ('color6', 'red'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'green'), ('trial_type', 'change'), ('set_size', 6), ('correct', 'f')]), OrderedDict([('loc1', '(.4, 0)'), ('loc2', '(.2, -.4)'), ('loc3', '(-.4, 0)'), ('loc4', '(-.2, .2)'), ('loc5', '(.2, 0)'), ('loc6', '(-.2, 0)'), ('loc7', '(.4, .2)'), ('loc8', '(-.2, .4)'), ('color1', 'yellow'), ('color2', 'black'), ('color3', 'orange'), ('color4', 'blue'), ('color5', 'white'), ('color6', 'violet'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'cyan'), ('trial_type', 'no-change'), ('set_size', 6), ('correct', 'j')]), OrderedDict([('loc1', '(-.2, -.4)'), ('loc2', '(.2, .2)'), ('loc3', '(-.4, -.4)'), ('loc4', '(.2, -.4)'), ('loc5', '(-.2, .2)'), ('loc6', '(-.2, -.2)'), ('loc7', '(-.4, -.2)'), ('loc8', '(-.2, 0)'), ('color1', 'black'), ('color2', 'orange'), ('color3', 'red'), ('color4', 'violet'), ('color5', 'cyan'), ('color6', 'red'), ('color7', 'green'), ('color8', 'yellow'), ('color9', 'white'), ('trial_type', 'change'), ('set_size', 8), ('correct', 'f')]), OrderedDict([('loc1', '(-.4, 0)'), ('loc2', '(.4, .4)'), ('loc3', '(.2, -.2)'), ('loc4', '(.2, -.4)'), ('loc5', '(.4, -.4)'), ('loc6', '(-.2, .2)'), ('loc7', '(.2, .2)'), ('loc8', '(-.2, 0)'), ('color1', 'blue'), ('color2', 'red'), ('color3', 'cyan'), ('color4', 'black'), ('color5', 'orange'), ('color6', 'violet'), ('color7', 'white'), ('color8', 'red'), ('color9', 'green'), ('trial_type', 'change'), ('set_size', 8), ('correct', 'f')]), OrderedDict([('loc1', '(.4, .2)'), ('loc2', '(-.2, -.4)'), ('loc3', '(-.4, -.4)'), ('loc4', '(-.4, -.2)'), ('loc5', '(.4, 0)'), ('loc6', '(-.4, .2)'), ('loc7', '(-.2, -.2)'), ('loc8', '(-.2, .4)'), ('color1', 'blue'), ('color2', 'cyan'), ('color3', 'grey'), ('color4', 'grey'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'red'), ('trial_type', 'no-change'), ('set_size', 2), ('correct', 'j')]), OrderedDict([('loc1', '(-.4, -.2)'), ('loc2', '(.4, .4)'), ('loc3', '(.2, 0)'), ('loc4', '(-.2, 0)'), ('loc5', '(.2, .2)'), ('loc6', '(.2, -.2)'), ('loc7', '(-.4, 0)'), ('loc8', '(.4, .2)'), ('color1', 'white'), ('color2', 'blue'), ('color3', 'red'), ('color4', 'black'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'orange'), ('trial_type', 'change'), ('set_size', 4), ('correct', 'f')]), OrderedDict([('loc1', '(-.4, -.2)'), ('loc2', '(-.4, 0)'), ('loc3', '(.2, -.2)'), ('loc4', '(-.4, -.4)'), ('loc5', '(.4, .2)'), ('loc6', '(-.2, -.2)'), ('loc7', '(-.2, 0)'), ('loc8', '(.4, .4)'), ('color1', 'white'), ('color2', 'cyan'), ('color3', 'grey'), ('color4', 'grey'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'orange'), ('trial_type', 'no-change'), ('set_size', 2), ('correct', 'j')]), OrderedDict([('loc1', '(-.2, -.2)'), ('loc2', '(-.2, -.4)'), ('loc3', '(-.2, 0)'), ('loc4', '(-.2, .4)'), ('loc5', '(.2, 0)'), ('loc6', '(.2, .4)'), ('loc7', '(-.4, -.2)'), ('loc8', '(-.4, 0)'), ('color1', 'blue'), ('color2', 'yellow'), ('color3', 'grey'), ('color4', 'grey'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'black'), ('trial_type', 'no-change'), ('set_size', 2), ('correct', 'j')]), OrderedDict([('loc1', '(-.4, -.2)'), ('loc2', '(.4, .4)'), ('loc3', '(.4, -.2)'), ('loc4', '(.4, 0)'), ('loc5', '(-.2, -.2)'), ('loc6', '(.2, 0)'), ('loc7', '(-.2, .4)'), ('loc8', '(.4, -.4)'), ('color1', 'green'), ('color2', 'yellow'), ('color3', 'orange'), ('color4', 'black'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'red'), ('trial_type', 'change'), ('set_size', 4), ('correct', 'f')]), OrderedDict([('loc1', '(.4, .4)'), ('loc2', '(-.2, .4)'), ('loc3', '(-.4, -.2)'), ('loc4', '(-.4, .4)'), ('loc5', '(.2, 0)'), ('loc6', '(.2, .4)'), ('loc7', '(.2, -.2)'), ('loc8', '(.4, -.4)'), ('color1', 'green'), ('color2', 'orange'), ('color3', 'yellow'), ('color4', 'white'), ('color5', 'black'), ('color6', 'violet'), ('color7', 'red'), ('color8', 'red'), ('color9', 'cyan'), ('trial_type', 'change'), ('set_size', 8), ('correct', 'f')]), OrderedDict([('loc1', '(.2, .2)'), ('loc2', '(-.4, -.4)'), ('loc3', '(-.2, 0)'), ('loc4', '(.2, -.4)'), ('loc5', '(.4, -.2)'), ('loc6', '(-.2, .2)'), ('loc7', '(-.2, .4)'), ('loc8', '(.2, 0)'), ('color1', 'yellow'), ('color2', 'orange'), ('color3', 'grey'), ('color4', 'grey'), ('color5', 'grey'), ('color6', 'grey'), ('color7', 'grey'), ('color8', 'grey'), ('color9', 'violet'), ('trial_type', 'no-change'), ('set_size', 2), ('correct', 'j')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="trials.csv" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="fix"/>
+    <Routine name="encoding"/>
+    <Routine name="delay_interval"/>
+    <Routine name="test"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="end_exp"/>
+  </Flow>
+</PsychoPy2experiment>

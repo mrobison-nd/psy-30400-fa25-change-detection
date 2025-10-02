@@ -1,0 +1,511 @@
+25.1279 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+25.1288 	INFO 	Loaded monitor calibration from ['2024_09_02 21:12']
+25.7457 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000018C2442EEC0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000018C2442EF20>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000018C2442F0D0>, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000018C24A846D0>, multiSample=False, name='window1', numSamples=2, pos=[760.0, 180.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+25.7458 	EXP 	window1: backgroundImage = ''
+25.7458 	EXP 	window1: backgroundFit = 'none'
+25.7462 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000018C2442EBC0>
+25.7466 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000018C2442EBC0>
+25.7494 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000018C2442EBC0>
+25.7500 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000018C2442EBC0>
+25.7591 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.7609 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.7628 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.7654 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.7698 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.7709 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.7729 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.7762 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.7772 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.7776 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.7796 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.7825 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.7846 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.7868 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.7891 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.7917 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.7939 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.7945 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.7954 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.7979 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.7985 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.7988 	DEBUG 	Uploading Texture Font fontname to graphics card
+25.8225 	DEBUG 	Upload of Texture Font fontname complete
+25.8250 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000018C2442EBC0>
+25.8252 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000018C2442EBC0>
+25.8262 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000018C2442EBC0>
+25.8267 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000018C2442EBC0>
+25.8325 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.8354 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.8385 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+25.8389 	DEBUG 	Uploading Texture Font fontname to graphics card
+25.8456 	DEBUG 	Upload of Texture Font fontname complete
+25.8494 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+25.8495 	EXP 	window1: recordFrameIntervals = False
+26.0992 	EXP 	window1: recordFrameIntervals = True
+26.1421 	WARNING 	t of last frame was 23.48ms (=1/42)
+26.1794 	WARNING 	t of last frame was 21.44ms (=1/46)
+26.2044 	WARNING 	t of last frame was 25.00ms (=1/39)
+26.2257 	WARNING 	t of last frame was 21.24ms (=1/47)
+26.2957 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+27.9776 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+27.9779 	EXP 	window1: mouseVisible = False
+27.9786 	EXP 	window1: mouseVisible = False
+27.9788 	EXP 	window1: mouseVisible = False
+27.9801 	EXP 	window1: mouseVisible = False
+27.9809 	EXP 	window1: mouseVisible = False
+27.9879 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+27.9890 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+27.9915 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+27.9943 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+27.9962 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+27.9988 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.0002 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.0032 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.0058 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.0083 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+28.0087 	DEBUG 	Uploading Texture Font fontname to graphics card
+28.0093 	DEBUG 	Upload of Texture Font fontname complete
+28.0110 	EXP 	window1: mouseVisible = False
+28.0111 	EXP 	window1: mouseVisible = False
+28.0116 	EXP 	window1: mouseVisible = False
+28.0120 	EXP 	window1: mouseVisible = False
+28.0299 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+32.3625 	INFO 	keyboard.Keyboard is using iohub backend.
+32.3625 	INFO 	keyboard.Keyboard is using iohub backend.
+32.3626 	INFO 	keyboard.Keyboard is using iohub backend.
+32.3626 	INFO 	keyboard.Keyboard is using iohub backend.
+32.3626 	INFO 	keyboard.Keyboard is using iohub backend.
+32.3626 	INFO 	keyboard.Keyboard is using iohub backend.
+32.3626 	EXP 	ChangeDetection: status = STARTED
+32.3629 	EXP 	window1: mouseVisible = False
+32.4569 	EXP 	Created welcome_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='welcome_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+32.4570 	EXP 	window1: mouseVisible = False
+32.4827 	EXP 	Created instruct1_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='instruct1_text', opacity=1, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+32.4828 	EXP 	window1: mouseVisible = False
+32.5479 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, image='examples.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.6 , 0.35]), texRes=128.0, units='height', win=Window(...))
+32.5479 	EXP 	window1: mouseVisible = False
+32.5560 	EXP 	Created welcome_text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='welcome_text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+32.5561 	EXP 	window1: mouseVisible = False
+32.5570 	EXP 	Created item1 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item1', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.5571 	EXP 	window1: mouseVisible = False
+32.5580 	EXP 	Created item2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.5581 	EXP 	window1: mouseVisible = False
+32.5590 	EXP 	Created item3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item3', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.5591 	EXP 	window1: mouseVisible = False
+32.5600 	EXP 	Created item4 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item4', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.5600 	EXP 	window1: mouseVisible = False
+32.5611 	EXP 	Created item5 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item5', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.5612 	EXP 	window1: mouseVisible = False
+32.5621 	EXP 	Created item6 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item6', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.5622 	EXP 	window1: mouseVisible = False
+32.5631 	EXP 	Created item7 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-6.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item7', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.5632 	EXP 	window1: mouseVisible = False
+32.5642 	EXP 	Created item8 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-7.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item8', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.5642 	EXP 	window1: mouseVisible = False
+32.5711 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fixation', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+32.5712 	EXP 	window1: mouseVisible = False
+32.5724 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+32.5725 	EXP 	window1: mouseVisible = False
+32.5781 	EXP 	Created test_indicator = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([0.00392157, 0.00392157, 0.00392157]), fillColorSpace='rgb', fillRGB=array([0.00392157, 0.00392157, 0.00392157]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=5.0, name='test_indicator', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+32.5782 	EXP 	window1: mouseVisible = False
+32.5791 	EXP 	Created item1_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item1_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.5792 	EXP 	window1: mouseVisible = False
+32.5800 	EXP 	Created item2_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item2_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.5801 	EXP 	window1: mouseVisible = False
+32.5810 	EXP 	Created item3_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item3_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.5810 	EXP 	window1: mouseVisible = False
+32.5819 	EXP 	Created item4_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item4_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.5819 	EXP 	window1: mouseVisible = False
+32.5829 	EXP 	Created item5_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item5_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.5830 	EXP 	window1: mouseVisible = False
+32.5840 	EXP 	Created item6_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-6.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item6_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.5840 	EXP 	window1: mouseVisible = False
+32.5848 	EXP 	Created item7_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-7.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item7_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.5849 	EXP 	window1: mouseVisible = False
+32.5858 	EXP 	Created item8_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-8.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item8_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.5858 	EXP 	window1: mouseVisible = False
+32.5863 	EXP 	Created fb_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='fb_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+32.5864 	EXP 	window1: mouseVisible = False
+32.6018 	EXP 	Created instruct1_text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='instruct1_text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+32.6019 	EXP 	window1: mouseVisible = False
+32.6027 	EXP 	Created item1 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item1', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.6027 	EXP 	window1: mouseVisible = False
+32.6036 	EXP 	Created item2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.6036 	EXP 	window1: mouseVisible = False
+32.6044 	EXP 	Created item3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item3', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.6044 	EXP 	window1: mouseVisible = False
+32.6051 	EXP 	Created item4 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item4', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.6052 	EXP 	window1: mouseVisible = False
+32.6062 	EXP 	Created item5 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item5', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.6062 	EXP 	window1: mouseVisible = False
+32.6071 	EXP 	Created item6 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item6', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.6072 	EXP 	window1: mouseVisible = False
+32.6083 	EXP 	Created item7 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-6.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item7', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.6084 	EXP 	window1: mouseVisible = False
+32.6094 	EXP 	Created item8 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-7.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item8', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.6094 	EXP 	window1: mouseVisible = False
+32.6110 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fixation', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+32.6112 	EXP 	window1: mouseVisible = False
+32.6138 	EXP 	Created test_indicator = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([0.00392157, 0.00392157, 0.00392157]), fillColorSpace='rgb', fillRGB=array([0.00392157, 0.00392157, 0.00392157]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=5.0, name='test_indicator', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+32.6138 	EXP 	window1: mouseVisible = False
+32.6148 	EXP 	Created item1_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item1_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.6148 	EXP 	window1: mouseVisible = False
+32.6156 	EXP 	Created item2_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item2_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.6157 	EXP 	window1: mouseVisible = False
+32.6165 	EXP 	Created item3_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item3_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.6166 	EXP 	window1: mouseVisible = False
+32.6172 	EXP 	Created item4_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item4_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.6173 	EXP 	window1: mouseVisible = False
+32.6181 	EXP 	Created item5_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item5_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.6181 	EXP 	window1: mouseVisible = False
+32.6191 	EXP 	Created item6_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-6.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item6_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.6191 	EXP 	window1: mouseVisible = False
+32.6201 	EXP 	Created item7_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-7.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item7_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.6202 	EXP 	window1: mouseVisible = False
+32.6211 	EXP 	Created item8_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-8.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='item8_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+32.6212 	EXP 	window1: mouseVisible = False
+32.6277 	EXP 	Created end_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='end_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0373 	INFO 	Keyboard events cleared
+0.0368 	EXP 	welcome_text: autoDraw = True
+8.1348 	DATA 	Keypress: space
+8.1462 	INFO 	Keyboard events cleared
+8.1457 	EXP 	welcome_text: autoDraw = False
+8.1457 	EXP 	instruct1_text: autoDraw = True
+8.1457 	EXP 	image: autoDraw = True
+8.5518 	DATA 	Keypress: space
+10.3342 	DATA 	Keypress: right
+10.3516 	INFO 	Keyboard events cleared
+10.3507 	EXP 	instruct1_text: autoDraw = False
+10.3507 	EXP 	image: autoDraw = False
+10.3507 	EXP 	welcome_text_2: autoDraw = True
+11.0881 	DEBUG 	Read csv file with pandas: practice_trials.csv
+11.0898 	DEBUG 	Clearing unnamed columns from practice_trials.csv
+11.0941 	EXP 	Imported practice_trials.csv as conditions, 12 conditions, 21 params
+11.0947 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'loc1': [-0.15, 0.15], 'loc2': [0.3, 0.3], 'loc3': [-0.3, -0.3], 'loc4': [0.15, 0.15], 'loc5': [-0.15, 0.3], 'loc6': [-0.3, 0], 'loc7': [-0.15, 0], 'loc8': [-0.15, -0.15], 'color1': 'orange', 'color2': 'white', 'color3': 'yellow', 'color4': 'cyan', 'color5': 'blue', 'color6': 'red', 'color7': 'grey', 'color8': 'grey', 'color9': 'black', 'trial_type': 'change', 'set_size': 6, 'correct': 'j', 'testcolor': 'black', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+11.0984 	DATA 	Keypress: space
+11.1092 	EXP 	welcome_text_2: autoDraw = False
+11.1092 	EXP 	item1: fillColor = <psychopy.colors.Color: orange, alpha=1.0>
+11.1092 	EXP 	item1: borderColor = <psychopy.colors.Color: orange, alpha=1.0>
+11.1092 	EXP 	item2: fillColor = <psychopy.colors.Color: white, alpha=1.0>
+11.1092 	EXP 	item2: borderColor = <psychopy.colors.Color: white, alpha=1.0>
+11.1092 	EXP 	item3: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+11.1092 	EXP 	item3: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+11.1092 	EXP 	item4: fillColor = <psychopy.colors.Color: cyan, alpha=1.0>
+11.1092 	EXP 	item4: borderColor = <psychopy.colors.Color: cyan, alpha=1.0>
+11.1092 	EXP 	item5: fillColor = <psychopy.colors.Color: blue, alpha=1.0>
+11.1092 	EXP 	item5: borderColor = <psychopy.colors.Color: blue, alpha=1.0>
+11.1092 	EXP 	item6: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+11.1092 	EXP 	item6: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+11.1092 	EXP 	item7: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+11.1092 	EXP 	item7: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+11.1092 	EXP 	item8: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+11.1092 	EXP 	item8: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+11.5702 	EXP 	fixation: autoDraw = True
+12.5765 	EXP 	item1: autoDraw = True
+12.5765 	EXP 	item2: autoDraw = True
+12.5765 	EXP 	item3: autoDraw = True
+12.5765 	EXP 	item4: autoDraw = True
+12.5765 	EXP 	item5: autoDraw = True
+12.5765 	EXP 	item6: autoDraw = True
+12.5765 	EXP 	item7: autoDraw = True
+12.5765 	EXP 	item8: autoDraw = True
+12.6001 	EXP 	fixation: autoDraw = False
+12.8344 	EXP 	item1: autoDraw = False
+12.8344 	EXP 	item2: autoDraw = False
+12.8344 	EXP 	item3: autoDraw = False
+12.8344 	EXP 	item4: autoDraw = False
+12.8344 	EXP 	item5: autoDraw = False
+12.8344 	EXP 	item6: autoDraw = False
+12.8344 	EXP 	item7: autoDraw = False
+12.8344 	EXP 	item8: autoDraw = False
+12.8344 	EXP 	fixation: autoDraw = False
+12.8344 	EXP 	text: autoDraw = True
+13.7428 	INFO 	Keyboard events cleared
+13.7418 	EXP 	text: autoDraw = False
+13.7418 	EXP 	item1_2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+13.7418 	EXP 	item1_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+13.7418 	EXP 	item2_2: fillColor = <psychopy.colors.Color: white, alpha=1.0>
+13.7418 	EXP 	item2_2: borderColor = <psychopy.colors.Color: white, alpha=1.0>
+13.7418 	EXP 	item3_2: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+13.7418 	EXP 	item3_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+13.7418 	EXP 	item4_2: fillColor = <psychopy.colors.Color: cyan, alpha=1.0>
+13.7418 	EXP 	item4_2: borderColor = <psychopy.colors.Color: cyan, alpha=1.0>
+13.7418 	EXP 	item5_2: fillColor = <psychopy.colors.Color: blue, alpha=1.0>
+13.7418 	EXP 	item5_2: borderColor = <psychopy.colors.Color: blue, alpha=1.0>
+13.7418 	EXP 	item6_2: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+13.7418 	EXP 	item6_2: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+13.7418 	EXP 	item7_2: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+13.7418 	EXP 	item7_2: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+13.7418 	EXP 	item8_2: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+13.7418 	EXP 	item8_2: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+13.7418 	EXP 	test_indicator: autoDraw = True
+13.7418 	EXP 	item1_2: autoDraw = True
+13.7418 	EXP 	item2_2: autoDraw = True
+13.7418 	EXP 	item3_2: autoDraw = True
+13.7418 	EXP 	item4_2: autoDraw = True
+13.7418 	EXP 	item5_2: autoDraw = True
+13.7418 	EXP 	item6_2: autoDraw = True
+13.7418 	EXP 	item7_2: autoDraw = True
+13.7418 	EXP 	item8_2: autoDraw = True
+14.4786 	DATA 	Keypress: j
+14.4926 	EXP 	test_indicator: autoDraw = False
+14.4926 	EXP 	item1_2: autoDraw = False
+14.4926 	EXP 	item2_2: autoDraw = False
+14.4926 	EXP 	item3_2: autoDraw = False
+14.4926 	EXP 	item4_2: autoDraw = False
+14.4926 	EXP 	item5_2: autoDraw = False
+14.4926 	EXP 	item6_2: autoDraw = False
+14.4926 	EXP 	item7_2: autoDraw = False
+14.4926 	EXP 	item8_2: autoDraw = False
+14.4926 	EXP 	fb_text: foreColor = <psychopy.colors.Color: cyan, alpha=1.0>
+14.4926 	EXP 	fb_text: height = 0.03
+14.4926 	EXP 	fb_text: height = 0.03
+14.4926 	EXP 	fb_text: height = 0.03
+14.4926 	EXP 	fb_text: text = 'correct'
+14.4926 	EXP 	fb_text: autoDraw = True
+15.4757 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'loc1': [-0.3, -0.3], 'loc2': [-0.15, -0.3], 'loc3': [0.3, -0.15], 'loc4': [-0.15, -0.15], 'loc5': [-0.15, 0], 'loc6': [-0.3, 0.3], 'loc7': [0.3, -0.3], 'loc8': [0.15, 0], 'color1': 'blue', 'color2': 'violet', 'color3': 'cyan', 'color4': 'red', 'color5': 'black', 'color6': 'yellow', 'color7': 'grey', 'color8': 'grey', 'color9': 'green', 'trial_type': 'no-change', 'set_size': 6, 'correct': 'f', 'testcolor': 'blue', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+15.5049 	EXP 	fb_text: autoDraw = False
+15.5049 	EXP 	item1: fillColor = <psychopy.colors.Color: blue, alpha=1.0>
+15.5049 	EXP 	item1: borderColor = <psychopy.colors.Color: blue, alpha=1.0>
+15.5049 	EXP 	item2: fillColor = <psychopy.colors.Color: violet, alpha=1.0>
+15.5049 	EXP 	item2: borderColor = <psychopy.colors.Color: violet, alpha=1.0>
+15.5049 	EXP 	item3: fillColor = <psychopy.colors.Color: cyan, alpha=1.0>
+15.5049 	EXP 	item3: borderColor = <psychopy.colors.Color: cyan, alpha=1.0>
+15.5049 	EXP 	item4: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+15.5049 	EXP 	item4: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+15.5049 	EXP 	item5: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+15.5049 	EXP 	item5: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+15.5049 	EXP 	item6: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+15.5049 	EXP 	item6: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+15.5049 	EXP 	item7: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+15.5049 	EXP 	item7: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+15.5049 	EXP 	item8: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+15.5049 	EXP 	item8: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+15.9922 	EXP 	fixation: autoDraw = True
+16.9845 	EXP 	item1: autoDraw = True
+16.9845 	EXP 	item2: autoDraw = True
+16.9845 	EXP 	item3: autoDraw = True
+16.9845 	EXP 	item4: autoDraw = True
+16.9845 	EXP 	item5: autoDraw = True
+16.9845 	EXP 	item6: autoDraw = True
+16.9845 	EXP 	item7: autoDraw = True
+16.9845 	EXP 	item8: autoDraw = True
+17.0092 	EXP 	fixation: autoDraw = False
+17.2594 	EXP 	item1: autoDraw = False
+17.2594 	EXP 	item2: autoDraw = False
+17.2594 	EXP 	item3: autoDraw = False
+17.2594 	EXP 	item4: autoDraw = False
+17.2594 	EXP 	item5: autoDraw = False
+17.2594 	EXP 	item6: autoDraw = False
+17.2594 	EXP 	item7: autoDraw = False
+17.2594 	EXP 	item8: autoDraw = False
+17.2594 	EXP 	fixation: autoDraw = False
+17.2594 	EXP 	text: autoDraw = True
+18.1608 	INFO 	Keyboard events cleared
+18.1600 	EXP 	text: autoDraw = False
+18.1600 	EXP 	item1_2: fillColor = <psychopy.colors.Color: blue, alpha=1.0>
+18.1600 	EXP 	item1_2: borderColor = <psychopy.colors.Color: blue, alpha=1.0>
+18.1600 	EXP 	item2_2: fillColor = <psychopy.colors.Color: violet, alpha=1.0>
+18.1600 	EXP 	item2_2: borderColor = <psychopy.colors.Color: violet, alpha=1.0>
+18.1600 	EXP 	item3_2: fillColor = <psychopy.colors.Color: cyan, alpha=1.0>
+18.1600 	EXP 	item3_2: borderColor = <psychopy.colors.Color: cyan, alpha=1.0>
+18.1600 	EXP 	item4_2: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+18.1600 	EXP 	item4_2: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+18.1600 	EXP 	item5_2: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+18.1600 	EXP 	item5_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+18.1600 	EXP 	item6_2: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+18.1600 	EXP 	item6_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+18.1600 	EXP 	item7_2: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+18.1600 	EXP 	item7_2: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+18.1600 	EXP 	item8_2: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+18.1600 	EXP 	item8_2: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+18.1600 	EXP 	test_indicator: autoDraw = True
+18.1600 	EXP 	item1_2: autoDraw = True
+18.1600 	EXP 	item2_2: autoDraw = True
+18.1600 	EXP 	item3_2: autoDraw = True
+18.1600 	EXP 	item4_2: autoDraw = True
+18.1600 	EXP 	item5_2: autoDraw = True
+18.1600 	EXP 	item6_2: autoDraw = True
+18.1600 	EXP 	item7_2: autoDraw = True
+18.1600 	EXP 	item8_2: autoDraw = True
+19.2487 	DATA 	Keypress: j
+19.2594 	EXP 	test_indicator: autoDraw = False
+19.2594 	EXP 	item1_2: autoDraw = False
+19.2594 	EXP 	item2_2: autoDraw = False
+19.2594 	EXP 	item3_2: autoDraw = False
+19.2594 	EXP 	item4_2: autoDraw = False
+19.2594 	EXP 	item5_2: autoDraw = False
+19.2594 	EXP 	item6_2: autoDraw = False
+19.2594 	EXP 	item7_2: autoDraw = False
+19.2594 	EXP 	item8_2: autoDraw = False
+19.2594 	EXP 	fb_text: foreColor = <psychopy.colors.Color: darkred, alpha=1.0>
+19.2594 	EXP 	fb_text: height = 0.03
+19.2594 	EXP 	fb_text: height = 0.03
+19.2594 	EXP 	fb_text: height = 0.03
+19.2594 	EXP 	fb_text: text = 'incorrect'
+19.2594 	EXP 	fb_text: autoDraw = True
+20.2632 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'loc1': [0.3, -0.3], 'loc2': [0.3, 0], 'loc3': [-0.3, -0.15], 'loc4': [-0.3, -0.3], 'loc5': [0.15, 0.3], 'loc6': [0.3, 0.15], 'loc7': [-0.15, 0.15], 'loc8': [0.3, -0.15], 'color1': 'violet', 'color2': 'red', 'color3': 'grey', 'color4': 'grey', 'color5': 'grey', 'color6': 'grey', 'color7': 'grey', 'color8': 'grey', 'color9': 'yellow', 'trial_type': 'no-change', 'set_size': 2, 'correct': 'f', 'testcolor': 'violet', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+20.2855 	EXP 	fb_text: autoDraw = False
+20.2855 	EXP 	item1: fillColor = <psychopy.colors.Color: violet, alpha=1.0>
+20.2855 	EXP 	item1: borderColor = <psychopy.colors.Color: violet, alpha=1.0>
+20.2855 	EXP 	item2: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+20.2855 	EXP 	item2: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+20.2855 	EXP 	item3: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+20.2855 	EXP 	item3: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+20.2855 	EXP 	item4: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+20.2855 	EXP 	item4: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+20.2855 	EXP 	item5: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+20.2855 	EXP 	item5: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+20.2855 	EXP 	item6: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+20.2855 	EXP 	item6: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+20.2855 	EXP 	item7: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+20.2855 	EXP 	item7: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+20.2855 	EXP 	item8: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+20.2855 	EXP 	item8: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+20.7596 	EXP 	fixation: autoDraw = True
+21.7547 	EXP 	item1: autoDraw = True
+21.7547 	EXP 	item2: autoDraw = True
+21.7547 	EXP 	item3: autoDraw = True
+21.7547 	EXP 	item4: autoDraw = True
+21.7547 	EXP 	item5: autoDraw = True
+21.7547 	EXP 	item6: autoDraw = True
+21.7547 	EXP 	item7: autoDraw = True
+21.7547 	EXP 	item8: autoDraw = True
+21.7772 	EXP 	fixation: autoDraw = False
+22.0224 	EXP 	item1: autoDraw = False
+22.0224 	EXP 	item2: autoDraw = False
+22.0224 	EXP 	item3: autoDraw = False
+22.0224 	EXP 	item4: autoDraw = False
+22.0224 	EXP 	item5: autoDraw = False
+22.0224 	EXP 	item6: autoDraw = False
+22.0224 	EXP 	item7: autoDraw = False
+22.0224 	EXP 	item8: autoDraw = False
+22.0224 	EXP 	fixation: autoDraw = False
+22.0224 	EXP 	text: autoDraw = True
+22.9273 	INFO 	Keyboard events cleared
+22.9265 	EXP 	text: autoDraw = False
+22.9265 	EXP 	item1_2: fillColor = <psychopy.colors.Color: violet, alpha=1.0>
+22.9265 	EXP 	item1_2: borderColor = <psychopy.colors.Color: violet, alpha=1.0>
+22.9265 	EXP 	item2_2: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+22.9265 	EXP 	item2_2: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+22.9265 	EXP 	item3_2: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+22.9265 	EXP 	item3_2: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+22.9265 	EXP 	item4_2: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+22.9265 	EXP 	item4_2: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+22.9265 	EXP 	item5_2: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+22.9265 	EXP 	item5_2: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+22.9265 	EXP 	item6_2: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+22.9265 	EXP 	item6_2: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+22.9265 	EXP 	item7_2: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+22.9265 	EXP 	item7_2: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+22.9265 	EXP 	item8_2: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+22.9265 	EXP 	item8_2: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+22.9265 	EXP 	test_indicator: autoDraw = True
+22.9265 	EXP 	item1_2: autoDraw = True
+22.9265 	EXP 	item2_2: autoDraw = True
+22.9265 	EXP 	item3_2: autoDraw = True
+22.9265 	EXP 	item4_2: autoDraw = True
+22.9265 	EXP 	item5_2: autoDraw = True
+22.9265 	EXP 	item6_2: autoDraw = True
+22.9265 	EXP 	item7_2: autoDraw = True
+22.9265 	EXP 	item8_2: autoDraw = True
+23.6338 	DATA 	Keypress: f
+23.6552 	EXP 	test_indicator: autoDraw = False
+23.6552 	EXP 	item1_2: autoDraw = False
+23.6552 	EXP 	item2_2: autoDraw = False
+23.6552 	EXP 	item3_2: autoDraw = False
+23.6552 	EXP 	item4_2: autoDraw = False
+23.6552 	EXP 	item5_2: autoDraw = False
+23.6552 	EXP 	item6_2: autoDraw = False
+23.6552 	EXP 	item7_2: autoDraw = False
+23.6552 	EXP 	item8_2: autoDraw = False
+23.6552 	EXP 	fb_text: foreColor = <psychopy.colors.Color: cyan, alpha=1.0>
+23.6552 	EXP 	fb_text: height = 0.03
+23.6552 	EXP 	fb_text: height = 0.03
+23.6552 	EXP 	fb_text: height = 0.03
+23.6552 	EXP 	fb_text: text = 'correct'
+23.6552 	EXP 	fb_text: autoDraw = True
+24.6436 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'loc1': [-0.3, 0.3], 'loc2': [0.3, 0.15], 'loc3': [-0.15, -0.3], 'loc4': [0.3, -0.15], 'loc5': [-0.15, 0.3], 'loc6': [-0.15, 0], 'loc7': [-0.3, -0.15], 'loc8': [0.15, 0.3], 'color1': 'white', 'color2': 'green', 'color3': 'grey', 'color4': 'grey', 'color5': 'grey', 'color6': 'grey', 'color7': 'grey', 'color8': 'grey', 'color9': 'cyan', 'trial_type': 'change', 'set_size': 2, 'correct': 'j', 'testcolor': 'cyan', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+24.6712 	EXP 	fb_text: autoDraw = False
+24.6712 	EXP 	item1: fillColor = <psychopy.colors.Color: white, alpha=1.0>
+24.6712 	EXP 	item1: borderColor = <psychopy.colors.Color: white, alpha=1.0>
+24.6712 	EXP 	item2: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+24.6712 	EXP 	item2: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+24.6712 	EXP 	item3: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+24.6712 	EXP 	item3: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+24.6712 	EXP 	item4: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+24.6712 	EXP 	item4: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+24.6712 	EXP 	item5: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+24.6712 	EXP 	item5: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+24.6712 	EXP 	item6: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+24.6712 	EXP 	item6: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+24.6712 	EXP 	item7: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+24.6712 	EXP 	item7: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+24.6712 	EXP 	item8: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+24.6712 	EXP 	item8: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+25.1554 	EXP 	fixation: autoDraw = True
+26.1415 	EXP 	item1: autoDraw = True
+26.1415 	EXP 	item2: autoDraw = True
+26.1415 	EXP 	item3: autoDraw = True
+26.1415 	EXP 	item4: autoDraw = True
+26.1415 	EXP 	item5: autoDraw = True
+26.1415 	EXP 	item6: autoDraw = True
+26.1415 	EXP 	item7: autoDraw = True
+26.1415 	EXP 	item8: autoDraw = True
+26.1669 	EXP 	fixation: autoDraw = False
+26.3996 	EXP 	item1: autoDraw = False
+26.3996 	EXP 	item2: autoDraw = False
+26.3996 	EXP 	item3: autoDraw = False
+26.3996 	EXP 	item4: autoDraw = False
+26.3996 	EXP 	item5: autoDraw = False
+26.3996 	EXP 	item6: autoDraw = False
+26.3996 	EXP 	item7: autoDraw = False
+26.3996 	EXP 	item8: autoDraw = False
+26.3996 	EXP 	fixation: autoDraw = False
+26.3996 	EXP 	text: autoDraw = True
+27.3100 	INFO 	Keyboard events cleared
+27.3090 	EXP 	text: autoDraw = False
+27.3090 	EXP 	item1_2: fillColor = <psychopy.colors.Color: cyan, alpha=1.0>
+27.3090 	EXP 	item1_2: borderColor = <psychopy.colors.Color: cyan, alpha=1.0>
+27.3090 	EXP 	item2_2: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+27.3090 	EXP 	item2_2: borderColor = <psychopy.colors.Color: green, alpha=1.0>
+27.3090 	EXP 	item3_2: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+27.3090 	EXP 	item3_2: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+27.3090 	EXP 	item4_2: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+27.3090 	EXP 	item4_2: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+27.3090 	EXP 	item5_2: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+27.3090 	EXP 	item5_2: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+27.3090 	EXP 	item6_2: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+27.3090 	EXP 	item6_2: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+27.3090 	EXP 	item7_2: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+27.3090 	EXP 	item7_2: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+27.3090 	EXP 	item8_2: fillColor = <psychopy.colors.Color: grey, alpha=1.0>
+27.3090 	EXP 	item8_2: borderColor = <psychopy.colors.Color: grey, alpha=1.0>
+27.3090 	EXP 	test_indicator: autoDraw = True
+27.3090 	EXP 	item1_2: autoDraw = True
+27.3090 	EXP 	item2_2: autoDraw = True
+27.3090 	EXP 	item3_2: autoDraw = True
+27.3090 	EXP 	item4_2: autoDraw = True
+27.3090 	EXP 	item5_2: autoDraw = True
+27.3090 	EXP 	item6_2: autoDraw = True
+27.3090 	EXP 	item7_2: autoDraw = True
+27.3090 	EXP 	item8_2: autoDraw = True
+27.8337 	DATA 	Keypress: escape
+27.9581 	EXP 	ChangeDetection: status = STOPPED
+27.9760 	EXP 	test_indicator: autoDraw = False
+27.9760 	EXP 	item1_2: autoDraw = False
+27.9760 	EXP 	item2_2: autoDraw = False
+27.9760 	EXP 	item3_2: autoDraw = False
+27.9760 	EXP 	item4_2: autoDraw = False
+27.9760 	EXP 	item5_2: autoDraw = False
+27.9760 	EXP 	item6_2: autoDraw = False
+27.9760 	EXP 	item7_2: autoDraw = False
+27.9760 	EXP 	item8_2: autoDraw = False
+27.9800 	EXP 	ChangeDetection: status = STOPPED
+28.2078 	INFO 	saved data to 'G:\\My Drive\\Teaching\\FA 25 PSY 30400\\Experiments\\Change detection\\data/841206_ChangeDetection_2025-07-30_13h21.07.207.csv'
+28.2565 	INFO 	saved data to G:\My Drive\Teaching\FA 25 PSY 30400\Experiments\Change detection\data/841206_ChangeDetection_2025-07-30_13h21.07.207.psydat
+28.3441 	EXP 	window1: mouseVisible = True
+28.7155 	DEBUG 	Saving data for ChangeDetection ExperimentHandler
